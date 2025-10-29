@@ -42,37 +42,50 @@ Reliability Engineering (≈40%)
 ## Imke's Work
 
 Quality Management (≈60%)
-Content: [[Weeks]]
+Detailed chapter breakdown: see [[Weeks]] for full scope and sources.
 
-### Six Sigma (DMAIC & DFSS)
-- **DMAIC:** Define → Measure → Analyze → Improve → Control.  
-- **DFSS (DMADV):** Define → Measure → Analyze → Design → Verify.  
-- DFSS is for *new process or product design*; DMAIC for *improving existing ones*.  
-- Key roles: Leadership, Champion, Master BB, BB, GB — each with training & accountability.  
-- Focus on purpose, structure, and linkage to organizational performance.
+### Focus Themes for A2:
 
-### Root Cause Analysis (RCCA)
-- Juran’s four-step method: **Define → Analyze → Improve → Control.**  
-- Purpose: detect deviation, find root cause, implement corrective action, maintain control.  
-- Tools to know: 5 Whys, Fishbone, Pareto, FMEA, Histogram, Scatter, Stratification.  
+**Six Sigma and Continuous Innovation (DMAIC + DFSS/DMADV)**
+- **DMAIC (Ch. 15):** Define → Measure → Analyze → Improve → Control — for improving existing processes.
+- **DFSS/DMADV (Ch. 17):** Define → Measure → Analyze → Design → Verify — for new process or product design.
+- Scope: Up to before "Evolution of Design and Innovation Methods" (see Week 7/8).
+- Focus: purpose, five DMADV stages, difference from DMAIC. **No reliability calculations.**
+- Key roles: Leadership, Champion, Master BB, BB, GB — each with training & accountability.
+- Linkage to organizational performance.
+
+**Root Cause Analysis (RCCA) — Ch. 16**
+- Juran's four-step method: **Define → Analyze → Improve → Control.**
+- Purpose: detect deviation, find root cause, implement corrective action, maintain control.
+- Tools to know: 5 Whys, Fishbone, Pareto, FMEA, Histogram, Scatter, Stratification.
 - **Awareness only**, no numeric or deep statistics required.
 
-### Design of Experiments (DoE)
-- Theory-based only.  
-- Understand *why* DoE is used and how it differs from one-factor-at-a-time (OFAT).  
-- Emphasize: efficiency, interactions, randomization, blocking.  
-- Know terminology: **factor, level, treatment, interaction, response variable.**
+**Quality Planning & Control — Ch. 4, 6**
+- Ch. 4: Up to before "Juran Quality by Design Model sub-steps" — know stages and purpose.
+- Ch. 6: Up to before "Pyramid of Control" — control charts, process capability, corrective actions.
+- Exam-relevant chapters.
 
-### Strategic Planning & Deployment
-- Understand benefits of strategic quality planning.  
-- Key links: mission → goals → deployment → measurement → improvement.  
-- *Deployment of Goals* = end of scope.  
-- Align with Six Sigma structure and roles.
+**Strategic Planning & Performance Excellence — Ch. 7, 8 (see Week 8)**
+- Understand benefits of strategic quality planning.
+- Key links: mission → goals → deployment → measurement → improvement.
+- Scope: Up to *Deployment of Goals* (exclude Hoshin Kanri).
+- Ch. 8: Leadership, quality teams, manager roles — links to Six Sigma roles.
+
+**Accurate & Reliable Data (DoE) — §20.7.7 (see Week 10)**
+- **Theory only:** purpose, use, importance — no numerical work.
+- Understand *why* DoE is used and how it differs from one-factor-at-a-time (OFAT).
+- Emphasize: efficiency, interactions, randomization, blocking.
+- Know terminology: **factor, level, treatment, interaction, response variable.**
+- **High exam probability.**
+
+**Inspection, Test & Measurement — Ch. 24 (see Week 9)**
+- Sampling inspection, accuracy, measurement errors.
+- Reinforces control and verification.
 
 ### Final Tutorial / Integration
-- Covers **all 10 weeks**.  
-- Expect synthesis question linking DMAIC, RCCA, planning, and roles.  
-- “Develop a quality management implementation plan” theme.  
+- Covers **all 10 weeks**.
+- Expect synthesis question linking DMAIC, RCCA, planning, and roles.
+- "Develop a quality management implementation plan" theme.
 - Integration and application are key.
 
 ---
