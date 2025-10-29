@@ -1,0 +1,22 @@
+# ===============================
+# Obsidian Vault Git Ignore File
+# ===============================
+
+# --- Device-specific layouts ---
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# --- Plugin caches and build artifacts ---
+.obsidian/plugins/templater-obsidian/cache/
+.obsidian/plugins/**/node_modules/
+.obsidian/plugins/**/dist/**/.cache/
+.obsidian/plugins/**/.eslintcache
+
+# --- Local system & temporary files ---
+*.log
+*.tmp
+*.cache
+.DS_Store
+
+# --- Local AI or integration directories ---
+.claude/
