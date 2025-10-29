@@ -25,3 +25,10 @@
 # folders/files
 /Imke/W5/Lecture 9-split
 /textbook/loose chapter pages
+/textbook - Reece
+
+# Large media files (recordings)
+*.mp4
+*.mp3
+recordings and transcription/*.mp4
+recordings and transcription/*.mp3
