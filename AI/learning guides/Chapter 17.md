@@ -53,8 +53,12 @@ Plan quality from the start → capture customer needs → convert them into <sp
 
 ## 3  DMADV – The DFSS Implementation Method
 
-> [!important]  
-> **DMADV = the roadmap used to implement DFSS.**  
+> [!bug] EXAM CRITICAL — DMADV Steps
+> Know the 5 DMADV phases and difference from DMAIC
+> Textbook extent: Up to before "Evolution of Design and Innovation Methods"
+
+> [!important]
+> **DMADV = the roadmap used to implement DFSS.**
 > DFSS is the *methodology*; DMADV is the *step-by-step process* that executes it.
 
 | **Phase**              | **Purpose**                                                 | **Typical Activities / Deliverables**                                                                 |

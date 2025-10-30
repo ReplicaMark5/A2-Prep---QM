@@ -71,26 +71,30 @@ Both compare performance to goals, but **QC is active control** while **QA is ve
 
 ## 4 The Feedback Loop
 
+> [!bug] EXAM CRITICAL — Feedback Loop Structure
+> Know the 4 components: Sensor → Umpire → Actuator → Process
+> Textbook extent: Up to before "Pyramid of Control"
+
 All control relies on a feedback system consisting of:
 
 1. **Sensor** – measures actual performance.
-    
+
 2. **Umpire** – compares actual vs standard.
-    
+
 3. **Actuator** – triggers correction.
-    
+
 4. **Process** – responds to restore conformance.
-    
+
 
 Examples:
 
 - Thermostat (automatic control)
-    
-- Employee self-control (manual feedback)
-    
 
-> [!learn]  
-> A capable process + trained, empowered workers = self-control.  
+- Employee self-control (manual feedback)
+
+
+> [!learn]
+> A capable process + trained, empowered workers = self-control.
 > The worker must know what is expected, how they are doing, and have the means to adjust.
 
 ---

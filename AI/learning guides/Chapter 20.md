@@ -15,21 +15,29 @@
 
 ## 1) What DoE is and why it matters
 
+> [!bug] EXAM CRITICAL — Theory Only
+> Speaker 2: "If there's a DOE question, it's on theory. How do we use it, why it's important, what do we do with it?"
+> **No calculations** — focus on purpose, use, and importance
+
 DoE is a **structured way to plan, run, and analyse controlled tests** to learn which inputs drive performance, how they **interact**, and what settings work best, using **the fewest runs**. It enables cause-and-effect claims, avoids spurious correlations, and is economical.
 
-> [!danger] LEARN THIS  
-> **OFAT vs DoE**: OFAT varies one factor while holding others “constant.” It wastes runs, hides interactions, and yields narrow conclusions. DoE plans combinations to estimate **main effects + interactions** efficiently and validly.
+> [!danger] LEARN THIS
+> **OFAT vs DoE**: OFAT varies one factor while holding others "constant." It wastes runs, hides interactions, and yields narrow conclusions. DoE plans combinations to estimate **main effects + interactions** efficiently and validly.
 
 ---
 
 ## 2) Core vocabulary (workhorse terms)
 
-- **Factor**: a controllable input (e.g., temperature). **Level**: its setting. **Response**: the measured output. **Interaction**: joint effect of factors on the response.
-    
-- Inputs by control: **controlled (x)**, **uncontrolled observed (u)**, **uncontrolled unobserved (v)**. Tools: **replication**, **blocking**, **covariates**, **randomisation**.
-    
+> [!bug] EXAM FOCUS — Terminology
+> Know these terms: **factor, level, treatment, interaction, response variable**
+> From A2 Prep Guide emphasis on DoE terminology
 
-> [!tip] Mental map  
+- **Factor**: a controllable input (e.g., temperature). **Level**: its setting. **Response**: the measured output. **Interaction**: joint effect of factors on the response.
+
+- Inputs by control: **controlled (x)**, **uncontrolled observed (u)**, **uncontrolled unobserved (v)**. Tools: **replication**, **blocking**, **covariates**, **randomisation**.
+
+
+> [!tip] Mental map
 > Use **replication** to reduce noise, **blocking** to neutralise known nuisance variation, **randomisation** to average unknowns to ~0.
 
 ---

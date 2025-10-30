@@ -152,9 +152,14 @@ Know these terms quickly:
 ---
 
 ## 8) Exam triggers and quick checks
+
+> [!bug] EXAM CRITICAL — Integration Topics
+> Speaker 2: "Combination between theory and then applying that"
+> Final tutorial theme: "Develop a quality management implementation plan"
+
 > [!check] Likely asked
-> - Map a scenario to **DMADV vs DMAIC** and justify.  
-> - Explain **self-control** and why it cuts inspection cost.  
+> - Map a scenario to **DMADV vs DMAIC** and justify.
+> - Explain **self-control** and why it cuts inspection cost.
 > - Choose **control subjects** that align with customer CTQs and defend measures and standards.
 
 > [!question] 60-second drills

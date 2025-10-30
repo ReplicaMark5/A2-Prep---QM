@@ -165,6 +165,10 @@ Design isn’t complete until operations can **run and control** it sustainably.
 
 ## 5. The Purpose Behind Each Stage
 
+> [!bug] EXAM CRITICAL — Juran Quality by Design Stages
+> Know all 6 stages and their PURPOSE
+> Textbook extent: Up to before "Juran Quality by Design Model sub-steps"
+
 > [!danger] IMPORTANT --> LEARN
 > | **Stage** | **Purpose / Reasoning** |
 > |------------|--------------------------|
@@ -175,8 +179,8 @@ Design isn’t complete until operations can **run and control** it sustainably.
 > | Develop Process Features | Ensures production is capable and efficient. |
 > | Develop Controls & Transfer | Sustains design integrity through daily operation. |
 
-> [!success] Understanding Flow  
-> **Needs → Features → Processes → Control → Operations**  
+> [!success] Understanding Flow
+> **Needs → Features → Processes → Control → Operations**
 > Every stage translates abstract needs into practical, controlled delivery.
 
 ---

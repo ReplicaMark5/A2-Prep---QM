@@ -40,20 +40,28 @@ This makes Six Sigma a *learning engine* for organisations — it combines stati
 
 ## 3. Voice of the Customer (VOC) → Critical to Quality (CTQ)
 
-Quality always starts with the **customer’s definition of value**.  
-Six Sigma converts this “voice of the customer” (VOC) into **measurable performance requirements** called *CTQs* — *Critical to Quality characteristics.*
+> [!bug] EXAM CRITICAL — Application Focus
+> Speaker 2: "Theory + Application — understand foundations AND how you would apply it"
+> Expect questions on translating customer needs to CTQs in scenarios
 
-Example:  
-> VOC: “I want my online order to arrive fast.”  
+Quality always starts with the **customer's definition of value**.
+Six Sigma converts this "voice of the customer" (VOC) into **measurable performance requirements** called *CTQs* — *Critical to Quality characteristics.*
+
+Example:
+> VOC: "I want my online order to arrive fast."
 > CTQ: Delivery within 48 hours, 99% of the time.
 
-> [!learn]  
-> Six Sigma treats customer needs as data points, not opinions.  
-> CTQs become the measurable “targets” the process must meet.
+> [!learn]
+> Six Sigma treats customer needs as data points, not opinions.
+> CTQs become the measurable "targets" the process must meet.
 
 ---
 
 ## 4. The DMAIC Logic — Step by Step Understanding
+
+> [!bug] EXAM CRITICAL — DMAIC Steps
+> Know each phase's purpose and typical tools
+> Contrast with DMADV (design vs improve)
 
 Think of DMAIC as the *scientific method for business problems.*
 
@@ -61,14 +69,14 @@ Think of DMAIC as the *scientific method for business problems.*
 
 ### **Define — Clarify the real problem**
 
-Teams identify what’s wrong, who it affects, and what success would look like.
+Teams identify what's wrong, who it affects, and what success would look like.
 
-- Define scope, goals, and customer requirements.  
+- Define scope, goals, and customer requirements.
 - Tools: SIPOC diagram, VOC analysis, project charter.
 
 **Question:** *What is the problem, and why is it worth solving?*
 
-> [!important] LEARN THIS  
+> [!important] LEARN THIS
 > A well-defined problem is measurable, bounded, and customer-linked.
 
 ---
@@ -150,6 +158,10 @@ Together, they turn vague frustration (“This process is messy”) into specifi
 
 ## 6. Roles and Structure — The Human Engine
 
+> [!bug] EXAM CRITICAL — Six Sigma Roles
+> Know role hierarchy and responsibilities
+> Links to organizational roles in Chapter 8/Lecture 16
+
 Six Sigma runs through **defined roles**, each with a purpose.
 
 | **Role** | **Core Function** |
@@ -162,7 +174,7 @@ Six Sigma runs through **defined roles**, each with a purpose.
 | **Team Members / SMEs** | Provide operational expertise and data. |
 | **Process Owner** | Maintains the improved process long term. |
 
-> [!learn]  
+> [!learn]
 > Hierarchy ensures accountability. Each level owns a part of the improvement chain.
 
 ---

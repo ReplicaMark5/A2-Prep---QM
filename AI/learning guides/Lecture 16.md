@@ -29,18 +29,23 @@ When every plan — financial, marketing, quality — flows from the same strate
 
 ---
 
-### 2  Elements of an Effective Plan  
-Every strong strategy follows a logical chain:  
+### 2  Elements of an Effective Plan
+
+> [!bug] EXAM CRITICAL — Strategic Planning Chain
+> Know the sequence: Vision → Mission → Strategies → Goals → Values/Policies
+> Textbook extent: Up to "Deployment of Goals" (exclude Hoshin Kanri)
+
+Every strong strategy follows a logical chain:
 **Vision → Mission → Strategies → Annual Goals → Values / Policies**
 
-- **Vision** shows the desired future — what value the organisation brings to customers, employees, and society.  
-- **Mission** defines purpose — why the organisation exists.  
-- **Strategies** translate the vision into a few bold choices that drive direction.  
-- **Annual goals** turn strategies into measurable targets so progress can be tracked and reviewed.  
+- **Vision** shows the desired future — what value the organisation brings to customers, employees, and society.
+- **Mission** defines purpose — why the organisation exists.
+- **Strategies** translate the vision into a few bold choices that drive direction.
+- **Annual goals** turn strategies into measurable targets so progress can be tracked and reviewed.
 - **Values and Policies** guide behaviour and decision-making. They must be enforced and audited, not just stated.
 
-> [!learn] **Goal Design**  
-> Every goal must connect **customer needs** with **process capability**.  
+> [!learn] **Goal Design**
+> Every goal must connect **customer needs** with **process capability**.
 > Avoid setting targets that rely only on past performance — improvement demands a forward push.
 
 ---
@@ -58,13 +63,18 @@ Lower-level councils mirror this structure so decisions and information flow in 
 
 ---
 
-### 4  Deployment in Practice  
-Deployment means turning strategy into **projects** with clear owners, resources, timelines, and indicators.  
-Goals are broken into sub-goals and assigned to teams and individuals.  
+### 4  Deployment in Practice
+
+> [!bug] EXAM FOCUS — Deployment Application
+> Speaker 2: "How would you suggest they go about it?"
+> Expect questions on implementing quality management plans
+
+Deployment means turning strategy into **projects** with clear owners, resources, timelines, and indicators.
+Goals are broken into sub-goals and assigned to teams and individuals.
 This ensures responsibility is visible and progress can be tracked.
 
-> [!question] **Check Your Understanding**  
-> Can you follow one strategic goal all the way down to its projects and KPIs?  
+> [!question] **Check Your Understanding**
+> Can you follow one strategic goal all the way down to its projects and KPIs?
 > If not, the deployment is incomplete.
 
 ---

@@ -73,8 +73,12 @@ An unclear one sends you chasing ghosts.
 
 ## 4. The Tools as Extensions of Thought
 
-Tools are not the goal — they are *thinking scaffolds*.  
-Each helps uncover “why” from a different angle.
+> [!bug] EXAM CRITICAL — Tool Awareness
+> Speaker 2: "You need to be aware of all of those different tools and techniques"
+> Focus: Know the **purpose** of each tool, not detailed calculations
+
+Tools are not the goal — they are *thinking scaffolds*.
+Each helps uncover "why" from a different angle.
 
 ---
 
