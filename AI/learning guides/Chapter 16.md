@@ -76,6 +76,7 @@ An unclear one sends you chasing ghosts.
 > [!bug] EXAM CRITICAL — Tool Awareness
 > Speaker 2: "You need to be aware of all of those different tools and techniques"
 > Focus: Know the **purpose** of each tool, not detailed calculations
+^exam-critical-tools
 
 Tools are not the goal — they are *thinking scaffolds*.
 Each helps uncover "why" from a different angle.

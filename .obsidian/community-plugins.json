@@ -1,7 +1,9 @@
 [
   "colored-text",
   "pdf-plus",
-  "callout-manager",
   "highlightr-plugin",
-  "obsidian-markdown-formatting-assistant-plugin"
+  "obsidian-markdown-formatting-assistant-plugin",
+  "callout-manager",
+  "horizontal-blocks",
+  "webpage-html-export"
 ]

@@ -43,6 +43,7 @@ This makes Six Sigma a *learning engine* for organisations — it combines stati
 > [!bug] EXAM CRITICAL — Application Focus
 > Speaker 2: "Theory + Application — understand foundations AND how you would apply it"
 > Expect questions on translating customer needs to CTQs in scenarios
+^exam-critical-application
 
 Quality always starts with the **customer's definition of value**.
 Six Sigma converts this "voice of the customer" (VOC) into **measurable performance requirements** called *CTQs* — *Critical to Quality characteristics.*
@@ -62,6 +63,7 @@ Example:
 > [!bug] EXAM CRITICAL — DMAIC Steps
 > Know each phase's purpose and typical tools
 > Contrast with DMADV (design vs improve)
+^exam-critical-dmaic
 
 Think of DMAIC as the *scientific method for business problems.*
 
@@ -161,6 +163,7 @@ Together, they turn vague frustration (“This process is messy”) into specifi
 > [!bug] EXAM CRITICAL — Six Sigma Roles
 > Know role hierarchy and responsibilities
 > Links to organizational roles in Chapter 8/Lecture 16
+^exam-critical-roles
 
 Six Sigma runs through **defined roles**, each with a purpose.
 

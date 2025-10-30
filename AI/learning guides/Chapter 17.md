@@ -56,6 +56,7 @@ Plan quality from the start → capture customer needs → convert them into <sp
 > [!bug] EXAM CRITICAL — DMADV Steps
 > Know the 5 DMADV phases and difference from DMAIC
 > Textbook extent: Up to before "Evolution of Design and Innovation Methods"
+^exam-critical-dmadv
 
 > [!important]
 > **DMADV = the roadmap used to implement DFSS.**

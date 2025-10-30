@@ -74,6 +74,7 @@ Both compare performance to goals, but **QC is active control** while **QA is ve
 > [!bug] EXAM CRITICAL — Feedback Loop Structure
 > Know the 4 components: Sensor → Umpire → Actuator → Process
 > Textbook extent: Up to before "Pyramid of Control"
+^exam-critical-feedback
 
 All control relies on a feedback system consisting of:
 

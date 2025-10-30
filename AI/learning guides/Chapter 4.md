@@ -1,7 +1,11 @@
+---
+cssclass: mermaid-large
+---
+
 # Chapter 4 – Quality Planning & Design
 
-> [!summary] Purpose  
-> This chapter introduces the **first process of the Juran Trilogy** — *Quality Planning*, which is about **designing for quality and innovation.**  
+> [!summary] Purpose
+> This chapter introduces the **first process of the Juran Trilogy** — *Quality Planning*, which is about **designing for quality and innovation.**
 > It establishes how organisations convert customer needs into product and process designs that satisfy both the customer and operational requirements.
 
 ---
@@ -168,16 +172,24 @@ Design isn’t complete until operations can **run and control** it sustainably.
 > [!bug] EXAM CRITICAL — Juran Quality by Design Stages
 > Know all 6 stages and their PURPOSE
 > Textbook extent: Up to before "Juran Quality by Design Model sub-steps"
+^exam-critical-juran
+````horizontal
+```mermaid
+%%{init: {"flowchart": {"rankSpacing": 30, "nodeSpacing": 20}}}%%
+flowchart TD
+A["1 Establish Goals<br><small>Gives direction and boundaries to prevent vague design.</small>"]
+B["2 Identify Customers<br><small>Defines who counts and whose needs must be satisfied.</small>"]
+C["3 Discover Needs<br><small>Prevents assumption-based design errors.</small>"]
+D["4 Develop Features<br><small>Turns needs into tangible, value-creating attributes.</small>"]
+E["5 Develop Process Features<br><small>Ensures production is capable and efficient.</small>"]
+F["6 Develop Controls & Transfer<br><small>Sustains design integrity through daily operation.</small>"]
 
-> [!danger] IMPORTANT --> LEARN
-> | **Stage** | **Purpose / Reasoning** |
-> |------------|--------------------------|
-> | Establish Goals | Gives direction and boundaries to prevent vague design. |
-> | Identify Customers | Defines who counts and whose needs must be satisfied. |
-> | Discover Needs | Prevents assumption-based design errors. |
-> | Develop Features | Turns needs into tangible, value-creating attributes. |
-> | Develop Process Features | Ensures production is capable and efficient. |
-> | Develop Controls & Transfer | Sustains design integrity through daily operation. |
+A --> B --> C --> D --> E --> F
+
+classDef step fill:#fdeaea,stroke:#e66b6b,stroke-width:0.8px,color:#4a1a1a,font-weight:bold,font-size:14px;
+class A,B,C,D,E,F step;
+```
+````
 
 > [!success] Understanding Flow
 > **Needs → Features → Processes → Control → Operations**

@@ -156,6 +156,7 @@ Know these terms quickly:
 > [!bug] EXAM CRITICAL — Integration Topics
 > Speaker 2: "Combination between theory and then applying that"
 > Final tutorial theme: "Develop a quality management implementation plan"
+^exam-critical-integration
 
 > [!check] Likely asked
 > - Map a scenario to **DMADV vs DMAIC** and justify.

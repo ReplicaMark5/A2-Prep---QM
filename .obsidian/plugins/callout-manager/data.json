@@ -1,7 +1,29 @@
 {
   "callouts": {
     "custom": [],
-    "settings": {}
+    "settings": {
+      "bug": [
+        {
+          "changes": {
+            "icon": "lucide-atom"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "light"
+          },
+          "changes": {}
+        },
+        {
+          "condition": {
+            "colorScheme": "dark"
+          },
+          "changes": {
+            "color": "153, 45, 174"
+          }
+        }
+      ]
+    }
   },
   "calloutDetection": {
     "obsidian": true,

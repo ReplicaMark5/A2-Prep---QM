@@ -1,0 +1,15 @@
+/* Center Mermaid diagrams in Reading + Live Preview */
+.markdown-rendered .mermaid,
+.markdown-preview-view .mermaid {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center; /* centers internal SVG in some themes */
+  max-width: 720px;   /* optional: constrain width */
+}
+
+
+/* Compact Mermaid text and spacing */
+.markdown-rendered .mermaid svg {
+  font-size: 11px;
+}

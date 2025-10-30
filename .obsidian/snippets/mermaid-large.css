@@ -1,0 +1,12 @@
+/* Large Mermaid diagrams for specific pages using cssclass */
+.mermaid-large .markdown-rendered .mermaid,
+.mermaid-large .markdown-preview-view .mermaid {
+  max-width: 100% !important;
+  width: 100% !important;
+}
+
+.mermaid-large .markdown-rendered .mermaid svg,
+.mermaid-large .markdown-preview-view .mermaid svg {
+  font-size: 14px !important;
+  max-width: 100% !important;
+}

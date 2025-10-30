@@ -18,6 +18,7 @@
 > [!bug] EXAM CRITICAL — Theory Only
 > Speaker 2: "If there's a DOE question, it's on theory. How do we use it, why it's important, what do we do with it?"
 > **No calculations** — focus on purpose, use, and importance
+^exam-critical-doe-theory
 
 DoE is a **structured way to plan, run, and analyse controlled tests** to learn which inputs drive performance, how they **interact**, and what settings work best, using **the fewest runs**. It enables cause-and-effect claims, avoids spurious correlations, and is economical.
 
@@ -31,6 +32,7 @@ DoE is a **structured way to plan, run, and analyse controlled tests** to learn 
 > [!bug] EXAM FOCUS — Terminology
 > Know these terms: **factor, level, treatment, interaction, response variable**
 > From A2 Prep Guide emphasis on DoE terminology
+^exam-focus-doe-terminology
 
 - **Factor**: a controllable input (e.g., temperature). **Level**: its setting. **Response**: the measured output. **Interaction**: joint effect of factors on the response.
 

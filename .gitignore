@@ -23,7 +23,7 @@
 
 
 # folders/files
-/Imke/W5/Lecture 9-split
+/Imke/W5/Lecture 9-split (extraction)
 /textbook/loose chapter pages
 /textbook - Reece
 
@@ -32,6 +32,7 @@
 *.mp3
 recordings and transcription/*.mp4
 recordings and transcription/*.mp3
+*.html
 
 # --- Obsidian UI (device-specific) ---
 .obsidian/appearance.json
@@ -42,3 +43,5 @@ recordings and transcription/*.mp3
 !.obsidian/plugins/**/data.json
 
 
+/docs/Imke_A2_brief
+!/docs/Imke_A2_brief/Imke_A2_brief.md

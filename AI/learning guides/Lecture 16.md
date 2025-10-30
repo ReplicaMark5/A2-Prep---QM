@@ -34,6 +34,7 @@ When every plan — financial, marketing, quality — flows from the same strate
 > [!bug] EXAM CRITICAL — Strategic Planning Chain
 > Know the sequence: Vision → Mission → Strategies → Goals → Values/Policies
 > Textbook extent: Up to "Deployment of Goals" (exclude Hoshin Kanri)
+^exam-critical-strategic-planning
 
 Every strong strategy follows a logical chain:
 **Vision → Mission → Strategies → Annual Goals → Values / Policies**
@@ -68,6 +69,7 @@ Lower-level councils mirror this structure so decisions and information flow in 
 > [!bug] EXAM FOCUS — Deployment Application
 > Speaker 2: "How would you suggest they go about it?"
 > Expect questions on implementing quality management plans
+^exam-focus-deployment
 
 Deployment means turning strategy into **projects** with clear owners, resources, timelines, and indicators.
 Goals are broken into sub-goals and assigned to teams and individuals.
