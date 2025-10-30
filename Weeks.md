@@ -39,11 +39,11 @@
 
 ### **Week 7**
 
-- [ ] **Chapter 4 – Quality Planning & Design**
+- [x] **Chapter 4 – Quality Planning & Design**
   Source: <span style="color:rgb(196, 51, 2)">Textbook</span> [[Chapter 4.pdf#page=1&selection=12,5,12,27&color=note|Chapter 4]]
   Extent: Up to before "Juran Quality by Design Model sub-steps"
   Focus: Know stages and purpose
-  AI notes:
+  AI notes: [[Chapter 4]]
 
 - [x] **Chapter 17 – Continuous Innovation / DFSS**
   Source: <span style="color:rgb(196, 51, 2)">Textbook</span> [[Chapter 17.pdf#page=1&selection=12,6,12,28&color=note|Chapter 17]]
