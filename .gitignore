@@ -32,3 +32,13 @@
 *.mp3
 recordings and transcription/*.mp4
 recordings and transcription/*.mp3
+
+# --- Obsidian UI (device-specific) ---
+.obsidian/appearance.json
+
+# --- Ignore plugin code; keep only settings (data.json) ---
+.obsidian/plugins/**
+!.obsidian/plugins/**/
+!.obsidian/plugins/**/data.json
+
+

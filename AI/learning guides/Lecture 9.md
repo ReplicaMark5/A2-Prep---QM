@@ -25,7 +25,7 @@
 > Planning builds the system → Control stabilises it → Improvement evolves it.
 
 
-→ **Rhythm:** *Plan → Control → Improve*  
+→ **Rhythm:** *<span style="color:rgb(196, 51, 2)">Plan</span> → <span style="color:rgb(239, 96, 36)">Control</span> → <span style="color:rgb(240, 148, 31)">Improve</span>*  
 
 ---
 

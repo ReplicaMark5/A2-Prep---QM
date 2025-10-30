@@ -34,7 +34,7 @@ DFSS is a **systematic approach to designing new or redesigned goods, services, 
 - Achieve both *the right features* and *the fewest failures*.
 
 **Philosophy:**  
-Plan quality from the start → capture customer needs → convert them into measurable design requirements (CTQs) → verify before launch.
+Plan quality from the start → capture customer needs → convert them into <span style="color:rgb(196, 51, 2)">measurable design requirements (CTQs)</span> → verify before launch.
 
 **Scope:**  
 - Used in **new product introduction (NPI)**, service design, or process redesign.  
@@ -53,14 +53,21 @@ Plan quality from the start → capture customer needs → convert them into mea
 > **DMADV = the roadmap used to implement DFSS.**  
 > DFSS is the *methodology*; DMADV is the *step-by-step process* that executes it.
 
-| **Phase** | **Purpose** | **Typical Activities / Deliverables** |
-|------------|-------------|----------------------------------------|
-| **Select (pre-phase)** | Identify new market opportunities aligned with strategy. | Evaluate ROI, select projects, form team, define charter. |
-| **Define** | Clarify business case, goals, and customers. | Draft charter, establish scope, identify stakeholders, confirm need for a *new* design. |
-| **Measure** | Discover and quantify customer needs (VOC → CTQs). | Customer segmentation, QFD matrices, FMEA, baseline scorecard. |
-| **Analyze** | Develop and evaluate high-level design alternatives. | Functional analysis, simulations, TRIZ, risk and capability analysis. |
-| **Design** | Create detailed, optimized product/service/process design. | DOE, modeling, tolerance setting, pilot prototypes. |
-| **Verify** | Confirm performance and readiness for full-scale operation. | Pilot testing, verification of manufacturing/service capability, control plans, transition to owners. |
+| **Phase**              | **Purpose**                                                 | **Typical Activities / Deliverables**                                                                 |
+| ---------------------- | ----------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
+| **Select (pre-phase)** | Identify new market opportunities aligned with strategy.    | Evaluate ROI, select projects, form team, define charter.                                             |
+| **Define**             | Clarify business case, goals, and customers.                | Draft charter, establish scope, identify stakeholders, confirm need for a *new* design.               |
+| **Measure**            | Discover and quantify customer needs (VOC → CTQs).          | Customer segmentation, QFD matrices, FMEA, baseline scorecard.                                        |
+| **Analyze**            | Develop and evaluate high-level design alternatives.        | Functional analysis, simulations, TRIZ, risk and capability analysis.                                 |
+| **Design**             | Create detailed, optimized product/service/process design.  | DOE, modeling, tolerance setting, pilot prototypes.                                                   |
+| **Verify**             | Confirm performance and readiness for full-scale operation. | Pilot testing, verification of manufacturing/service capability, control plans, transition to owners. |
+
+> [!info] **QFD – Quality Function Deployment**  
+> A **systematic method** for deploying *customer needs* into **every stage of design and production.**  
+>  
+> Think of it as a **bridge** between marketing language (“I want it faster”) and engineering language (“reduce cycle time by 25%”).  
+>  
+> QFD ensures that the **customer’s voice drives the design** — not the other way around.
 
 ---
 

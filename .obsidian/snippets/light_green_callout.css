@@ -1,0 +1,37 @@
+/* Light-green FAQ, Help, and Question as smooth cards — no border, no underline */
+.callout[data-callout="faq"],
+.callout[data-callout="help"],
+.callout[data-callout="question"] {
+  --callout-color: 111,207,151;     /* light green RGB */
+  --callout-border-opacity: 0;      /* no border */
+  background-color: rgba(var(--callout-color), .08);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+/* Transparent inner sections for a single background layer */
+.callout[data-callout="faq"] > .callout-title,
+.callout[data-callout="faq"] .callout-content,
+.callout[data-callout="help"] > .callout-title,
+.callout[data-callout="help"] .callout-content,
+.callout[data-callout="question"] > .callout-title,
+.callout[data-callout="question"] .callout-content {
+  background: transparent !important;
+}
+
+/* Title and icon share same color */
+.callout[data-callout="faq"] > .callout-title,
+.callout[data-callout="faq"] .callout-icon,
+.callout[data-callout="help"] > .callout-title,
+.callout[data-callout="help"] .callout-icon,
+.callout[data-callout="question"] > .callout-title,
+.callout[data-callout="question"] .callout-icon {
+  color: rgb(var(--callout-color)) !important;
+}
+
+/* Remove title underline if the theme adds one */
+.callout[data-callout="faq"] > .callout-title,
+.callout[data-callout="help"] > .callout-title,
+.callout[data-callout="question"] > .callout-title {
+  border-bottom: none !important;
+}

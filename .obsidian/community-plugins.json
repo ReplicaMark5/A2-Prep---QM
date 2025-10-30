@@ -1,5 +1,7 @@
 [
   "colored-text",
   "pdf-plus",
-  "callout-manager"
+  "callout-manager",
+  "highlightr-plugin",
+  "obsidian-markdown-formatting-assistant-plugin"
 ]
