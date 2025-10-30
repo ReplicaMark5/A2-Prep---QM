@@ -121,7 +121,7 @@ Each cycle strengthens the organisation’s maturity and resilience.
 
 > [!example] Juran's Trilogy — Revision
 >
-> Revision from [[Lecture 9#🔺 Juran's Trilogy (The Core Framework)]]
+> Revision from [[Quality Fundamentals & Juran Trilogy (Ch1)#🔺 Juran's Trilogy (The Core Framework)]]
 >
 > | Stage | Purpose | Key Question |
 > |:--|:--|:--|

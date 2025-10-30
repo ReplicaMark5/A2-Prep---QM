@@ -14,7 +14,7 @@
 
 > [!example] Juran's Trilogy — Revision
 >
-> Revision from [[Lecture 9#🔺 Juran's Trilogy (The Core Framework)]] and [[Chapter 4#1. Where This Fits in the Juran Trilogy]]
+> Revision from [[Quality Fundamentals & Juran Trilogy (Ch1)#🔺 Juran's Trilogy (The Core Framework)]] and [[Juran Quality by Design - Quality Planning (Ch4)#1. Where This Fits in the Juran Trilogy]]
 >
 > Juran taught that quality improvement and innovation both start with *planning for customer needs*.
 >
@@ -84,7 +84,7 @@ Plan quality from the start → capture customer needs → convert them into <sp
 
 > [!example] DMAIC — Revision
 >
-> DMAIC introduced in [[Lecture 12#4. The DMAIC Logic — Step by Step Understanding]]
+> DMAIC introduced in [[Six Sigma DMAIC Methodology (Ch15)#4. The DMAIC Logic — Step by Step Understanding]]
 >
 > | **Aspect** | **DMAIC (Improve Existing)** | **DFSS / DMADV (Design New)** |
 > |-------------|------------------------------|--------------------------------|

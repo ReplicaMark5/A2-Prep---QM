@@ -8,8 +8,8 @@ _Source: Lecture 17 (Quality Management 444 – Prof Imke de Kock)_
 
 > [!example] Quality Control Context — Builds on Chapter 6
 >
-> Inspection and testing are **Quality Control tools**, introduced in [[Chapter 6]]
-> Also relates to measurement concepts from [[Lecture 15#6) Measurement that ties the loop]]
+> Inspection and testing are **Quality Control tools**, introduced in [[Quality Control & Feedback Loops (Ch6)]]
+> Also relates to measurement concepts from [[Quality Management Integration (L15)#6) Measurement that ties the loop]]
 >
 > Inspection and testing sit inside **Quality Control**, not planning or improvement.
 > Their job is to **compare what was made** to **what was specified** — confirming if an output conforms to requirements.

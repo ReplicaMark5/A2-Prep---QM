@@ -10,8 +10,8 @@
 
 > [!example] Juran's Trilogy — Revision
 >
-> Revision from [[Lecture 9#🔺 Juran's Trilogy (The Core Framework)]]
-> Also covered in: [[Lecture 10]], [[Chapter 4]], [[Chapter 17]]
+> Revision from [[Quality Fundamentals & Juran Trilogy (Ch1)#🔺 Juran's Trilogy (The Core Framework)]]
+> Also covered in: [[Quality Assessment & COPQ (Ch25)]], [[Juran Quality by Design - Quality Planning (Ch4)]], [[DFSS & DMADV Framework (Ch17)]]
 >
 > **Plan → Control → Improve** is the system loop. Design quality into the work, then regulate it in operation, then elevate capability.
 >
@@ -28,7 +28,7 @@
 
 > [!example] Quality Planning — Detailed in Chapter 4
 >
-> Overview here; full Juran Quality by Design Model covered in [[Chapter 4]]
+> Overview here; full Juran Quality by Design Model covered in [[Juran Quality by Design - Quality Planning (Ch4)]]
 >
 > Prevent defects by **designing them out** early. Verification late in the game is expensive and unreliable.
 
@@ -67,8 +67,8 @@ class A_note,B_note,C_note,D_note note;
 
 > [!example] DFSS/DMADV — Detailed in Chapter 17
 >
-> Brief overview here; full DFSS methodology and DMADV phases covered in [[Chapter 17]]
-> Also introduced in [[Lecture 12#8. DFSS / DMADV — When Six Sigma Designs, Not Fixes]]
+> Brief overview here; full DFSS methodology and DMADV phases covered in [[DFSS & DMADV Framework (Ch17)]]
+> Also introduced in [[Six Sigma DMAIC Methodology (Ch15)#8. DFSS / DMADV — When Six Sigma Designs, Not Fixes]]
 >
 > **DMADV:** _Define → Measure → Analyze → Design → Verify_. Use when **creating** or **re-creating** a product/process. Not for minor tweaks.
 >
@@ -88,7 +88,7 @@ class A_note,B_note,C_note,D_note note;
 
 > [!example] Quality Control — Detailed in Chapter 6
 >
-> Overview here; full QC concepts, feedback loops, and process control covered in [[Chapter 6]]
+> Overview here; full QC concepts, feedback loops, and process control covered in [[Quality Control & Feedback Loops (Ch6)]]
 >
 > QC = a **feedback loop** that compares actual vs standard and triggers **predefined actions**.
 >
@@ -112,7 +112,7 @@ class A_note,B_note,C_note,D_note note;
 
 > [!example] Self-Control — Related to Feedback Loop
 >
-> Self-control concept builds on the feedback loop from [[Chapter 6#4 The Feedback Loop]]
+> Self-control concept builds on the feedback loop from [[Quality Control & Feedback Loops (Ch6)#4 The Feedback Loop]]
 >
 > **Self-control** reduces inspection cost and increases ownership. Design work so the operator can **see the target, see their performance, and has the authority and means to correct**.
 >
@@ -141,8 +141,8 @@ Know these terms quickly:
 
 > [!example] Cost of Quality — Revision
 >
-> Cost of Poor Quality (COPQ) introduced in [[Lecture 10#💰 4. Cost of Poor Quality (COPQ)]]
-> QA vs QC distinction covered in [[Chapter 6#3 Relation to Quality Assurance]]
+> Cost of Poor Quality (COPQ) introduced in [[Quality Assessment & COPQ (Ch25)#💰 4. Cost of Poor Quality (COPQ)]]
+> QA vs QC distinction covered in [[Quality Control & Feedback Loops (Ch6)#3 Relation to Quality Assurance]]
 >
 > **Prevention** and **Appraisal** happen before shipment. **Internal** and **External Failure** happen when things go wrong, before vs after the customer.
 >

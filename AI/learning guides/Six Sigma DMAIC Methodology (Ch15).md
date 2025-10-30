@@ -187,7 +187,7 @@ Six Sigma runs through **defined roles**, each with a purpose.
 > [!example] Quality Tools — Also covered in Chapter 16
 >
 > These tools are introduced here in the context of DMAIC.
-> Detailed application for Root Cause Analysis covered in [[Chapter 16]]
+> Detailed application for Root Cause Analysis covered in [[Root Cause Analysis Tools - RCCA (Ch16)]]
 >
 > 1. **Check Sheet** – Collects frequency data.
 > 2. **Histogram** – Displays distribution of variation.
@@ -208,7 +208,7 @@ Six Sigma runs through **defined roles**, each with a purpose.
 
 > [!example] DFSS/DMADV Introduction — Expanded in Chapter 17
 >
-> Brief overview here; full details covered in [[Chapter 17]]
+> Brief overview here; full details covered in [[DFSS & DMADV Framework (Ch17)]]
 >
 > **DFSS** (*Design for Six Sigma*) is the **philosophy** of building quality into new designs.
 > **DMADV** (*Define–Measure–Analyze–Design–Verify*) is the **method** that executes DFSS.

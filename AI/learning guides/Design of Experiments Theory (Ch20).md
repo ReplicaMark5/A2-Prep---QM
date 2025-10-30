@@ -3,8 +3,8 @@
 > [!example] DOE — Brief mentions in previous chapters
 >
 > DOE mentioned briefly as a tool in:
-> - [[Lecture 12#Improve — Fix the system]] (DMAIC Improve phase)
-> - [[Chapter 17#3 DMADV – The DFSS Implementation Method]] (DMADV Design phase)
+> - [[Six Sigma DMAIC Methodology (Ch15)#Improve — Fix the system]] (DMAIC Improve phase)
+> - [[DFSS & DMADV Framework (Ch17)#3  DMADV – The DFSS Implementation Method]] (DMADV Design phase)
 >
 > This chapter provides full theoretical coverage.
 

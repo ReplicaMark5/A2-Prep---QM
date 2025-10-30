@@ -186,10 +186,10 @@ When a gap exists between actual and target:
 
 ### 6.1 Corrective Action Methods
 
-> [!example] The PDCA / PDSA Cycle 
-> 
-> Revision from [[Lecture 11#🔄 3 PDCA / PDSA Cycle (core improvement loop)]]  
-> 
+> [!example] The PDCA / PDSA Cycle
+>
+> Revision from [[Continuous Improvement & PDCA (Ch5)#🔄 3 | PDCA / PDSA Cycle (core improvement loop)]]
+>
 > A continuous improvement loop for process control and learning.
 > 
 > - **Plan** — Choose control subjects and set clear goals.

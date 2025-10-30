@@ -133,7 +133,7 @@ Teams deliver defined projects linked to organisational goals.
 
 > [!example] Six Sigma Roles — Revision
 >
-> Organizational roles here complement Six Sigma role structure from [[Lecture 12#6. Roles and Structure — The Human Engine]]
+> Organizational roles here complement Six Sigma role structure from [[Six Sigma DMAIC Methodology (Ch15)#6. Roles and Structure — The Human Engine]]
 >
 > **Role Clarity Summary:**
 > - **Council** removes barriers

@@ -27,7 +27,7 @@
 
 > [!example] Sporadic vs Chronic Problems — Revision
 >
-> Revision from [[Lecture 9#⚠️ Types of Quality Problems]]
+> Revision from [[Quality Fundamentals & Juran Trilogy (Ch1)#⚠️ Types of Quality Problems]]
 >
 > | Type                         | Nature                           | Remedy                                 |
 > | ---------------------------- | -------------------------------- | -------------------------------------- |

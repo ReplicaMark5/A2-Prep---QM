@@ -26,7 +26,7 @@ You can think of it like treating a patient:
 
 > [!example] RCCA Logic — Similar to DMAIC (with key difference)
 >
-> Juran's RCCA model is related to the DMAIC structure from [[Lecture 12]], but simpler:
+> Juran's RCCA model is related to the DMAIC structure from [[Six Sigma DMAIC Methodology (Ch15)]], but simpler:
 >
 > **RCCA (Root Cause) — 4 steps:**
 > 1. **Define** the problem clearly.
@@ -174,7 +174,7 @@ They provide **data visibility**, allowing the 5 Whys or Fishbone to be grounded
 
 > [!example] PDCA Cycle — Revision
 >
-> PDCA introduced in [[Lecture 11#🔄 3 PDCA / PDSA Cycle (core improvement loop)]]
+> PDCA introduced in [[Continuous Improvement & PDCA (Ch5)#🔄 3 | PDCA / PDSA Cycle (core improvement loop)]]
 >
 > - **RCCA** is analytical → used when cause is *unknown* and needs proof.
 > - **PDCA** is iterative → test a known fix on small scale.

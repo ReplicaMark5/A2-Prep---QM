@@ -14,7 +14,7 @@ cssclass: mermaid-large
 
 > [!example] Juran's Trilogy — Revision
 >
-> Revision from [[Lecture 9#🔺 Juran's Trilogy (The Core Framework)]]
+> Revision from [[Quality Fundamentals & Juran Trilogy (Ch1)#🔺 Juran's Trilogy (The Core Framework)]]
 >
 > Juran's Trilogy defines three universal management processes:
 > 1. **Quality <span style="color:rgb(25, 103, 116)">Planning</span>** – Create new products, services, or processes that meet customer needs.
