@@ -71,7 +71,12 @@ Simple but powerful.
 Keep asking “Why?” until the answer stops being a symptom and becomes a **process cause**.
 
 **Example:**
-> Machine stopped → Why? Fuse blew → Why? Overload → Why? Bearing failed → Why? No lubrication → Why? Maintenance skipped.
+> Machine stopped → Why? 
+> Fuse blew → Why? 
+> Overload → Why? 
+> Bearing failed → Why? 
+> No lubrication → Why? 
+> = Maintenance skipped.
 
 Now you’ve moved from *event* → *system failure*.
 

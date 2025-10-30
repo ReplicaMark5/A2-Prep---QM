@@ -117,7 +117,7 @@ Each cycle strengthens the organisation’s maturity and resilience.
 
 ---
 
-## 🧠 **7. Juran’s Trilogy Refresher**
+## 🧠 **7. Juran’s Trilogy Refresher** *PCI*
 
 | Stage | Purpose | Key Question |
 |:--|:--|:--|

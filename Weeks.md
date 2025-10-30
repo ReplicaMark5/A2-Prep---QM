@@ -23,7 +23,7 @@
   Note: Slides sufficient
   AI notes: [[Lecture 11]]
 
-- [x] **Chapter 15 – Six Sigma (DMAIC)**
+- [ ] **Chapter 15 – Six Sigma (DMAIC)**
   Source: <span style="color:rgb(196, 51, 2)">Textbook</span> [[Chapter 15.pdf#page=1&selection=12,6,12,28&color=note|Chapter 15]] + <span style="color:rgb(25, 103, 116)">Slides</span> [[Lecture 12-split.pdf#page=1&selection=2,0,2,10&color=note|Lecture 12-split, p.1]]
   Focus: DMAIC phases, tools, success factors
   Note: Contrast with DFSS concept
@@ -45,7 +45,7 @@
   Focus: Know stages and purpose
   AI notes:
 
-- [x] **Chapter 17 – Continuous Innovation / DFSS**
+- [ ] **Chapter 17 – Continuous Innovation / DFSS**
   Source: <span style="color:rgb(196, 51, 2)">Textbook</span> [[Chapter 17.pdf#page=1&selection=12,6,12,28&color=note|Chapter 17]]
   Extent: Up to before "Evolution of Design and Innovation Methods"
   Focus: DMADV steps; difference vs DMAIC
