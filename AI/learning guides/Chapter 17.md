@@ -12,15 +12,19 @@
 
 ## 1  Continuous Innovation and the Juran Trilogy
 
-Juran taught that quality improvement and innovation both start with *planning for customer needs*.
-
-- CI extends the Juran Trilogy (planning, control, improvement) by focusing on **innovation as planned quality**.  
-- Innovation happens when hidden customer needs are **discovered** and solved systematically — not by accident.  
-- This makes DFSS a **structured innovation engine**, not a random brainstorming exercise.
-
-> [!tip] Think  
-> Continuous improvement fixes what exists.  
-> Continuous innovation **creates what doesn’t exist yet**.
+> [!example] Juran's Trilogy — Revision
+>
+> Revision from [[Lecture 9#🔺 Juran's Trilogy (The Core Framework)]] and [[Chapter 4#1. Where This Fits in the Juran Trilogy]]
+>
+> Juran taught that quality improvement and innovation both start with *planning for customer needs*.
+>
+> - CI extends the Juran Trilogy (planning, control, improvement) by focusing on **innovation as planned quality**.
+> - Innovation happens when hidden customer needs are **discovered** and solved systematically — not by accident.
+> - This makes DFSS a **structured innovation engine**, not a random brainstorming exercise.
+>
+> **Key Insight:**
+> Continuous improvement fixes what exists.
+> Continuous innovation **creates what doesn't exist yet**.
 
 ---
 
@@ -73,17 +77,21 @@ Plan quality from the start → capture customer needs → convert them into <sp
 
 ## 4  DFSS vs DMAIC – Core Distinctions
 
-| **Aspect** | **DMAIC (Improve Existing)** | **DFSS / DMADV (Design New)** |
-|-------------|------------------------------|--------------------------------|
-| **Trigger** | Performance gap or defect | New opportunity or unmet need |
-| **Objective** | Fix root cause, stabilize process | Create design that meets CTQs from the start |
-| **Outcome** | Incremental improvement | Breakthrough innovation |
-| **Phases** | Define – Measure – Analyze – Improve – Control | Define – Measure – Analyze – Design – Verify |
-| **Mindset** | Corrective | Preventive |
-| **Example** | Reduce billing errors in existing system | Design new digital claims platform |
-
-> [!learn] Key Exam Idea  
-> DMAIC reacts to *variation*.  
+> [!example] DMAIC — Revision
+>
+> DMAIC introduced in [[Lecture 12#4. The DMAIC Logic — Step by Step Understanding]]
+>
+> | **Aspect** | **DMAIC (Improve Existing)** | **DFSS / DMADV (Design New)** |
+> |-------------|------------------------------|--------------------------------|
+> | **Trigger** | Performance gap or defect | New opportunity or unmet need |
+> | **Objective** | Fix root cause, stabilize process | Create design that meets CTQs from the start |
+> | **Outcome** | Incremental improvement | Breakthrough innovation |
+> | **Phases** | Define – Measure – Analyze – Improve – Control | Define – Measure – Analyze – Design – Verify |
+> | **Mindset** | Corrective | Preventive |
+> | **Example** | Reduce billing errors in existing system | Design new digital claims platform |
+>
+> **Key Exam Idea:**
+> DMAIC reacts to *variation*.
 > DFSS (via DMADV) prevents it by **embedding quality in design**.
 
 ---

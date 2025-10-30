@@ -8,16 +8,19 @@
 
 ## 1. Where This Fits in the Juran Trilogy
 
-Juran’s Trilogy defines three universal management processes:
-1. **Quality <span style="color:rgb(25, 103, 116)">Planning</span>** – Create new products, services, or processes that meet customer needs.  
-2. **Quality<span style="color:rgb(240, 148, 31)"> Control</span>** – Keep performance within targets during operation.  
-3. **Quality <span style="color:rgb(196, 51, 2)">Improvement**</span> – Elevate performance to new levels.
-
-This chapter focuses on the *first one* — **planning**, because every great product starts with great design.  
-If the design is wrong, control and improvement are fighting uphill battles.
-
-> [!learn] LEARN THIS  
-> Design is the *root of quality*.  
+> [!example] Juran's Trilogy — Revision
+>
+> Revision from [[Lecture 9#🔺 Juran's Trilogy (The Core Framework)]]
+>
+> Juran's Trilogy defines three universal management processes:
+> 1. **Quality <span style="color:rgb(25, 103, 116)">Planning</span>** – Create new products, services, or processes that meet customer needs.
+> 2. **Quality<span style="color:rgb(240, 148, 31)"> Control</span>** – Keep performance within targets during operation.
+> 3. **Quality <span style="color:rgb(196, 51, 2)">Improvement**</span> – Elevate performance to new levels.
+>
+> This chapter focuses on the *first one* — **planning**, because every great product starts with great design.
+> If the design is wrong, control and improvement are fighting uphill battles.
+>
+> Design is the *root of quality*.
 > A poor design guarantees a poor outcome no matter how well you control or improve later.
 
 ---

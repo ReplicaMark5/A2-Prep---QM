@@ -25,14 +25,17 @@
 
 ## ⚙️ 2 | Types of Quality Problems
 
-| Type                         | Nature                           | Remedy                                 |
-| ---------------------------- | -------------------------------- | -------------------------------------- |
-| **Sporadic**                 | Sudden change from status quo    | Restore status quo via control process |
-| **Chronic**                  | Long-term, accepted issues       | Continuous improvement → Kaizen        |
-| **Growth / Future-oriented** | Anticipate next stage of quality | Preventive innovation                  |
-| **Innovation (“iPad-type”)** | Radical shift / disruption       | Breakthrough thinking                  |
-
-> [!tip]  
+> [!example] Sporadic vs Chronic Problems — Revision
+>
+> Revision from [[Lecture 9#⚠️ Types of Quality Problems]]
+>
+> | Type                         | Nature                           | Remedy                                 |
+> | ---------------------------- | -------------------------------- | -------------------------------------- |
+> | **Sporadic**                 | Sudden change from status quo    | Restore status quo via control process |
+> | **Chronic**                  | Long-term, accepted issues       | Continuous improvement → Kaizen        |
+> | **Growth / Future-oriented** | Anticipate next stage of quality | Preventive innovation                  |
+> | **Innovation ("iPad-type")** | Radical shift / disruption       | Breakthrough thinking                  |
+>
 > Continuous improvement (Kaizen) tackles chronic issues across the whole organisation.
 
 ---

@@ -24,19 +24,32 @@ You can think of it like treating a patient:
 
 ## 2. The Logic of RCCA
 
-Juran’s model treats problem-solving as a **loop**:
-1. **Define** the problem clearly.  
-2. **Analyze** the data to find the true cause.  
-3. **Improve** the process to remove that cause.  
-4. **Control** it so the issue never returns.
-
-Each phase is meant to *close the gap between what should happen and what does happen*.  
-If you skip one, you end up fixing symptoms — not causes.
-
-> [!tip] Mental Model  
-> Define = What happened?  
-> Analyze = Why did it happen?  
-> Improve = What should we do about it?  
+> [!example] RCCA Logic — Similar to DMAIC (with key difference)
+>
+> Juran's RCCA model is related to the DMAIC structure from [[Lecture 12]], but simpler:
+>
+> **RCCA (Root Cause) — 4 steps:**
+> 1. **Define** the problem clearly.
+> 2. **Analyze** the data to find the true cause.
+> 3. **Improve** the process to remove that cause.
+> 4. **Control** it so the issue never returns.
+>
+> **DMAIC (Six Sigma) — 5 steps:**
+> Define → **Measure** → Analyze → Improve → Control
+>
+> **Key Difference:**
+> - RCCA omits the explicit "Measure" phase (measurement is embedded in Analyze).
+> - RCCA is typically **corrective/reactive** (after a problem occurs).
+> - DMAIC is **systematic improvement** (includes baseline measurement and broader process enhancement).
+> - Juran describes RCCA as "a subset of the larger DMAIC process."
+>
+> Each phase is meant to *close the gap between what should happen and what does happen*.
+> If you skip one, you end up fixing symptoms — not causes.
+>
+> **Mental Model:**
+> Define = What happened?
+> Analyze = Why did it happen? (includes data gathering in RCCA)
+> Improve = What should we do about it?
 > Control = How do we make sure it stays fixed?
 
 ---
@@ -152,14 +165,17 @@ They provide **data visibility**, allowing the 5 Whys or Fishbone to be grounded
 
 ---
 
-## 6. RCCA vs PDCA vs “Just Do It”
+## 6. RCCA vs PDCA vs "Just Do It"
 
-- **RCCA** is analytical → used when cause is *unknown* and needs proof.  
-- **PDCA** is iterative → test a known fix on small scale.  
-- **Just Do It (JDI)** is intuitive → apply when the cause is *obvious and low risk.*
-
-> [!danger] LEARN THIS  
-> You can’t “Just Do It” your way out of complex failures — that’s when you need RCCA’s structure.
+> [!example] PDCA Cycle — Revision
+>
+> PDCA introduced in [[Lecture 11#🔄 3 PDCA / PDSA Cycle (core improvement loop)]]
+>
+> - **RCCA** is analytical → used when cause is *unknown* and needs proof.
+> - **PDCA** is iterative → test a known fix on small scale.
+> - **Just Do It (JDI)** is intuitive → apply when the cause is *obvious and low risk.*
+>
+> You can't "Just Do It" your way out of complex failures — that's when you need RCCA's structure.
 
 ---
 

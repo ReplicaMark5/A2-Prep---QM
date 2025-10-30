@@ -198,9 +198,12 @@ When a gap exists between actual and target:
 > PDCA deals with **sporadic problems**—temporary spikes in variation.  
 > For **chronic problems**, structured improvement tools like **Six Sigma DMAIC** are used.
 
-> [!note]  
-> RCCA (Root Cause & Corrective Action) uses simpler, graphical tools for day-to-day issues.  
-> DMAIC tackles complex, recurring issues requiring statistical depth.
+> [!note]
+> **RCCA vs DMAIC:**
+> - RCCA (Root Cause & Corrective Action) is typically **corrective/reactive** — used after a problem or failure occurs.
+> - DMAIC is **systematic improvement** — includes baseline measurement and broader process enhancement.
+> - Both can use similar tools, but RCCA omits the explicit "Measure" phase.
+> - Juran describes RCCA as "a subset of the larger DMAIC process."
 
 ---
 

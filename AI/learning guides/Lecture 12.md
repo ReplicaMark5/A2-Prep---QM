@@ -169,37 +169,46 @@ Six Sigma runs through **defined roles**, each with a purpose.
 
 ## 7. The Seven Classic Quality Tools (used across DMAIC)
 
-1. **Check Sheet** – Collects frequency data.  
-2. **Histogram** – Displays distribution of variation.  
-3. **Pareto Chart** – Identifies the vital few causes.  
-4. **Cause-and-Effect Diagram** – Organises possible causes.  
-5. **Flow Chart** – Maps the process steps.  
-6. **Scatter Diagram** – Tests variable relationships.  
-7. **Control Chart** – Monitors performance over time.
-
-> [!tip] Mnemonic: **CHaPS FC²**  
+> [!example] Quality Tools — Also covered in Chapter 16
+>
+> These tools are introduced here in the context of DMAIC.
+> Detailed application for Root Cause Analysis covered in [[Chapter 16]]
+>
+> 1. **Check Sheet** – Collects frequency data.
+> 2. **Histogram** – Displays distribution of variation.
+> 3. **Pareto Chart** – Identifies the vital few causes.
+> 4. **Cause-and-Effect Diagram** – Organises possible causes.
+> 5. **Flow Chart** – Maps the process steps.
+> 6. **Scatter Diagram** – Tests variable relationships.
+> 7. **Control Chart** – Monitors performance over time.
+>
+> **Mnemonic:** CHaPS FC²
 > Check Sheet • Histogram • Pareto • Scatter • Flow • Cause-Effect • Control
-
-> [!learn]  
-> These tools don’t fix problems — they *reveal patterns* so DMAIC decisions are based on facts.
+>
+> These tools don't fix problems — they *reveal patterns* so DMAIC decisions are based on facts.
 
 ---
 
 ## 8. DFSS / DMADV — When Six Sigma Designs, Not Fixes
 
-> [!danger] LEARN THIS  
-> - **DFSS** (*Design for Six Sigma*) is the **philosophy** of building quality into new designs.  
-> - **DMADV** (*Define–Measure–Analyze–Design–Verify*) is the **method** that executes DFSS.
-
-| DMAIC (Improve) | DMADV / DFSS (Design) |
-|------------------|------------------------|
-| Improves existing process | Designs a new one |
-| Ends with Control | Ends with Verify |
-| Data from current process | Data from customer needs |
-| Example: Reduce invoice errors | Example: Design new online platform |
-
-**Key difference:** DMAIC fixes defects *after* they appear.  
-DMADV prevents them *before* they exist.
+> [!example] DFSS/DMADV Introduction — Expanded in Chapter 17
+>
+> Brief overview here; full details covered in [[Chapter 17]]
+>
+> **DFSS** (*Design for Six Sigma*) is the **philosophy** of building quality into new designs.
+> **DMADV** (*Define–Measure–Analyze–Design–Verify*) is the **method** that executes DFSS.
+>
+> | DMAIC (Improve) | DMADV / DFSS (Design) |
+> |------------------|------------------------|
+> | Improves existing process | Designs a new one |
+> | Ends with Control | Ends with Verify |
+> | Data from current process | Data from customer needs |
+> | Example: Reduce invoice errors | Example: Design new online platform |
+>
+> **Key difference:** DMAIC fixes defects *after* they appear.
+> DMADV prevents them *before* they exist.
+>
+> **Note:** DFSS/DMADV is covered in detail in Chapter 17 – Continuous Innovation.
 
 ---
 

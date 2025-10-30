@@ -117,13 +117,17 @@ Each cycle strengthens the organisation’s maturity and resilience.
 
 ---
 
-## 🧠 **7. Juran’s Trilogy Refresher** *PCI*
+## 🧠 **7. Juran's Trilogy Refresher** *PCI*
 
-| Stage | Purpose | Key Question |
-|:--|:--|:--|
-| **Quality Planning** | Design to meet customer needs | “What do customers require?” |
-| **Quality Control** | Maintain performance | “Are we meeting the standard?” |
-| **Quality Improvement** | Eliminate chronic problems | “How can we do better?” |
+> [!example] Juran's Trilogy — Revision
+>
+> Revision from [[Lecture 9#🔺 Juran's Trilogy (The Core Framework)]]
+>
+> | Stage | Purpose | Key Question |
+> |:--|:--|:--|
+> | **Quality Planning** | Design to meet customer needs | "What do customers require?" |
+> | **Quality Control** | Maintain performance | "Are we meeting the standard?" |
+> | **Quality Improvement** | Eliminate chronic problems | "How can we do better?" |
 
 ---
 
