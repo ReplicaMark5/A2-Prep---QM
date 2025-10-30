@@ -34,9 +34,13 @@ DoE is a **structured way to plan, run, and analyse controlled tests** to learn 
 > From A2 Prep Guide emphasis on DoE terminology
 ^exam-focus-doe-terminology
 
-- **Factor**: a controllable input (e.g., temperature). **Level**: its setting. **Response**: the measured output. **Interaction**: joint effect of factors on the response.
+> - **Factor**: a controllable input (e.g., temperature). 
+> - **Level**: its setting. 
+> - **Response**: the measured output.
+> - **Interaction**: joint effect of factors on the response.
 
-- Inputs by control: **controlled (x)**, **uncontrolled observed (u)**, **uncontrolled unobserved (v)**. Tools: **replication**, **blocking**, **covariates**, **randomisation**.
+> - Inputs by control: **controlled (x)**, **uncontrolled observed (u)**, **uncontrolled unobserved (v)**. 
+> - Tools: **replication**, **blocking**, **covariates**, **randomisation**.
 
 
 > [!tip] Mental map
