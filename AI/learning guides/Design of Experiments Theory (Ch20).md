@@ -20,6 +20,15 @@
 > **No calculations** — focus on purpose, use, and importance
 ^exam-critical-doe-theory
 
+Core Purpose of DoE
+
+1.  Screen — Find the vital few factors from many suspects.
+
+2.  Characterize — Measure how much each factor matters and how they interact.
+
+3.  Optimize — Find the best settings for maximum/minimum response.
+
+
 DoE is a **structured way to plan, run, and analyse controlled tests** to learn which inputs drive performance, how they **interact**, and what settings work best, using **the fewest runs**. It enables cause-and-effect claims, avoids spurious correlations, and is economical.
 
 > [!danger] LEARN THIS
