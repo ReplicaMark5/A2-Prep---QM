@@ -1,0 +1,32 @@
+{
+	"nodes":[
+		{"id":"strategic","type":"text","text":"## STRATEGIC LAYER\n\n• Vision → Goals → Deployment\n• Six Sigma Roles & Planning\n• Quality Assessment (COPQ)\n• Juran Roadmap","x":80,"y":-880,"width":500,"height":180,"color":"6"},
+		{"id":"planning","type":"text","text":"## PLANNING\n*Design Quality In*\n\n• QbD (Quality by Design)\n• DFSS (philosophy) → DMADV (method for new systems)\n• VOC → CTQs → GFD/QFD\n• Tools: DOE, FMEA","x":-1160,"y":0,"width":500,"height":280,"color":"3"},
+		{"id":"improvement","type":"text","text":"## IMPROVEMENT\n*Raise Performance*\n\n• PDCA/PDSA (Kaizen - incremental)\n• DMAIC (systematic)\n• RCCA/RCA (5 Whys, Fishbone, Pareto, FMEA)\n• JDI (Just Do It - quick fixes)\n• Juran Breakthrough Sequence","x":2050,"y":-130,"width":500,"height":300,"color":"5"},
+		{"id":"control","type":"text","text":"## CONTROL\n*Maintain Standards*\n\n• Feedback Loop (Sensor→Umpire→Actuator→Process)\n• KPC / KCC\n• QC vs QA\n• Inspection & Testing\n• SOPs","x":1040,"y":-300,"width":500,"height":280,"color":"4"},
+		{"id":"root","type":"text","text":"# QUALITY MANAGEMENT\n\n**Juran's Trilogy (PCI)**\nPlan → Control → Improve","x":-40,"y":-360,"width":500,"height":200,"color":"1"},
+		{"id":"six-sigma","type":"text","text":"## SIX SIGMA\n\n• Variation reduction\n• 3.4 defects per million\n• Statistical control\n• Common vs Special cause","x":-1000,"y":-580,"width":500,"height":220,"color":"1"},
+		{"id":"problem-types","type":"text","text":"## PROBLEM TYPES\n\n**Sporadic** → Control\n(sudden, restore)\n\n**Chronic** → Improve\n(persistent, breakthrough)\n\n**Innovation** → Plan\n(new opportunity)","x":1400,"y":600,"width":500,"height":260,"color":"2"},
+		{"id":"voc","type":"text","text":"## VOICE OF CUSTOMER\n\nDrives all phases:\n→ Planning (requirements)\n→ Control (subjects)\n→ Improvement (targets)","x":-40,"y":730,"width":500,"height":200,"color":"#ff0000"},
+		{"id":"moms","type":"text","text":"## PROBLEM DEFINITION\n\n**MOMS Framework**\n->Measurable\n->Observable\n->Manageable\n->Specific","x":2240,"y":630,"width":440,"height":200,"color":"5"}
+	],
+	"edges":[
+		{"id":"strategic-root","fromNode":"strategic","fromSide":"bottom","toNode":"root","toSide":"top","color":"6","label":"Deploys to"},
+		{"id":"root-planning","fromNode":"root","fromSide":"left","toNode":"planning","toSide":"right","color":"3","label":"PLAN"},
+		{"id":"root-control","fromNode":"root","fromSide":"right","toNode":"control","toSide":"left","color":"4","label":"CONTROL"},
+		{"id":"control-improvement","fromNode":"control","fromSide":"right","toNode":"improvement","toSide":"left","color":"5","label":"IMPROVE"},
+		{"id":"improvement-planning","fromNode":"improvement","fromSide":"bottom","toNode":"planning","toSide":"top","label":"Feedback to redesign"},
+		{"id":"voc-planning","fromNode":"voc","fromSide":"top","toNode":"planning","toSide":"bottom","label":"Requirements"},
+		{"id":"voc-control","fromNode":"voc","fromSide":"top","toNode":"control","toSide":"bottom","label":"Control subjects"},
+		{"id":"sigma-all","fromNode":"six-sigma","fromSide":"top","toNode":"root","toSide":"top","label":"Philosophy"},
+		{"id":"problems-control","fromNode":"problem-types","fromSide":"top","toNode":"control","toSide":"bottom","label":"Sporadic"},
+		{"id":"problems-improve","fromNode":"problem-types","fromSide":"top","toNode":"improvement","toSide":"bottom","label":"Chronic"},
+		{"id":"moms-improve","fromNode":"moms","fromSide":"top","toNode":"improvement","toSide":"bottom","label":"Define problems"},
+		{"id":"problems-planning","fromNode":"problem-types","fromSide":"left","toNode":"planning","toSide":"right","label":"Innovation"},
+		{"id":"pdca-dmaic","fromNode":"improvement","fromSide":"right","toNode":"improvement","toSide":"right","color":"5","label":"Escalate: PDCA → DMAIC"},
+		{"id":"rcca-dmaic","fromNode":"improvement","fromSide":"bottom","toNode":"improvement","toSide":"bottom","color":"5","label":"RCCA tools in DMAIC Analyze"},
+		{"id":"strategic-control","fromNode":"strategic","fromSide":"right","toNode":"control","toSide":"top","color":"6","label":"Influences"},
+		{"id":"strategic-improvement","fromNode":"strategic","fromSide":"right","toNode":"improvement","toSide":"top","color":"6","label":"Influences"},
+		{"id":"voc-improvement","fromNode":"voc","fromSide":"top","toNode":"improvement","toSide":"bottom","label":"Improvement targets"}
+	]
+}
