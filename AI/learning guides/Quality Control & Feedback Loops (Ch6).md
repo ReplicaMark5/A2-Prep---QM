@@ -29,7 +29,7 @@ Once improved, you create _new controls_ to preserve the higher level of perform
     
     - _Examples_: surface finish (on), hardness (within), weight (about).
         
-- **<span style="color:rgb(239, 96, 36)">Key Control Characteristics (KCCs)**</span> → process parameters influencing KPCs.
+- **<span style="color:rgb(239, 96, 36)">Key Control Characteristics (KCCs)</span> → process parameters influencing KPCs.
     
     - _Examples_: temperature, torque, feed rate.
         
@@ -107,13 +107,9 @@ Examples:
 Select _what_ to control using:
 
 - Customer requirements (VOC)
-    
 - Safety / environment needs
-    
 - Standards (ISO 9000, OSHA)
-    
 - Past failures and risk analyses (FMEA)
-    
 
 > [!tip]  
 > At higher levels, control subjects broaden from technical specs to business and customer outcomes.
@@ -125,11 +121,8 @@ Select _what_ to control using:
 Define:
 
 - **Sensor** type (tool or person)
-    
 - Accuracy & frequency
-    
 - Data recording and reporting methods
-    
 
 Good measures are **understandable, consistent, and decision-driving**.
 
@@ -142,11 +135,8 @@ Goals must be <span style="color:rgb(46, 122, 31)"><b>legitimate, measurable, at
 
 **Product goals:** meet customer needs, reliability, durability.  
 **Process goals:**
-
 - Produce conforming output.
-    
 - Stay statistically stable (“in control”).
-    
 
 ---
 
@@ -174,13 +164,9 @@ This is where control charts are typically applied.
 When a gap exists between actual and target:
 
 1. **Detect** deviation.
-    
 2. **Diagnose** the cause (special vs common).
-    
 3. **Correct** through an actuator (machine setting, procedure update, policy change).
-    
 4. **Verify** stability restored.
-    
 
 ---
 

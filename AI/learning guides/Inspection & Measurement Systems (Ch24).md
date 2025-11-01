@@ -25,18 +25,13 @@ _Source: Lecture 17 (Quality Management 444 – Prof Imke de Kock)_
 **Inspection** looks at the **state or appearance** of a product.
 
 - Can be **visual**, **destructive**, or involve **precise measurement**.
-    
 - Happens under **static** conditions.
-    
 - Checks conformance to a **design standard** (within UCL/LCL limits).
-    
 
 **Testing** evaluates **functionality during operation.**
 
 - Run on complex assemblies or systems.
-    
 - Seeks to confirm **functional performance** over a reasonable period.
-    
 
 > [!question] Why the difference matters  
 > Inspection asks, “Does it _look and measure_ right?”  
@@ -102,13 +97,9 @@ Choosing **where and when** to inspect determines efficiency.
 Typical checkpoints:
 
 - At **receiving**, **setup approval**, or **critical operations**
-    
 - **Between departments**
-    
 - **Before shipping** or any **irreversible step**
-    
 - At **natural windows** (logical process pauses)
-    
 
 > [!question] Think about flow  
 > Each inspection point acts as a feedback gate to stop defects early and cheaply.
@@ -123,13 +114,9 @@ Designers know the reasoning behind specs, but inspectors often don’t — a ke
 Bridging that gap means:
 
 - Simulating real-use conditions during tests.
-    
 - Providing contextual info (“why this spec matters”).
-    
 - Training inspectors and supervisors.
-    
 - Using **seriousness classification** to prioritize checks.
-    
 
 > [!learn] Seriousness Classification  
 > Not all defects are equal — classify them by their effect on safety, function, and customer perception (usually 3–4 levels).
@@ -164,11 +151,8 @@ If measurement error is large or unknown, improvement decisions lose validity.
 Inspection and testing exist to:
 
 - Provide **evidence** of quality.
-    
 - Support **acceptance decisions** based on risk, cost, and use.
-    
 - Feed data back into **process control and improvement** loops.
-    
 
 > [!summary] Core Takeaways
 > 
