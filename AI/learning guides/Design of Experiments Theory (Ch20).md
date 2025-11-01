@@ -19,6 +19,7 @@
 > Speaker 2: "If there's a DOE question, it's on theory. How do we use it, why it's important, what do we do with it?"
 > **No calculations** — focus on purpose, use, and importance
 ^exam-critical-doe-theory
+---
 
 Core Purpose of DoE
 
@@ -30,6 +31,14 @@ Core Purpose of DoE
 
 
 DoE is a **structured way to plan, run, and analyse controlled tests** to learn which inputs drive performance, how they **interact**, and what settings work best, using **the fewest runs**. It enables cause-and-effect claims, avoids spurious correlations, and is economical.
+
+OUTCOME FROM GROK GEMINI CHAT GPT
+
+Purpose: Screening  →  Phase: Design fractional factorial (2⁴⁻¹) → Analyse → Identify key factors
+Purpose: Characterisation  →  Phase: Run full factorial + centre points → Measure interactions
+Purpose: Optimisation  →  Phase: Use RSM → Fit surface → Find optimum
+
+---
 
 > [!danger] LEARN THIS
 > **OFAT vs DoE**: OFAT varies one factor while holding others "constant." It wastes runs, hides interactions, and yields narrow conclusions. DoE plans combinations to estimate **main effects + interactions** efficiently and validly.
