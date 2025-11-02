@@ -6,29 +6,35 @@
 
 ```horizontal
 
-**Series Systems**
+**Series Systems** [[k-out-of-n Redundancy Explanation#n-out-of-n System (Series)|ℹ️]]
 
 $R=\prod_{i=1}^{w} R_{i}$
 
-**Active Parallel Systems (k-out-of-w)**
+**Active Parallel Systems (k-out-of-w) - Identical** [[k-out-of-n Redundancy Explanation#For Identical Components|ℹ️]]
 
 $R=\sum_{j=k}^{w} \frac{w!}{j!(w-j)!} R_{i}^{j}\left(1-R_{i}\right)^{w-j}$
 
-**Standby Parallel Systems**
+**Standby Parallel Systems (General)** [[Standby Redundancy Explanation#General Formula|ℹ️]] [[k-out-of-n Redundancy Explanation#1-out-of-n System (Active Parallel)|Also see 1-out-of-n]]
 
 $R=1-\prod_{i=1}^{w}\left(1-R_{i}\right)$
 
-**<span style="color:rgb(196, 51, 2)">Complex Systems</span>**
+**Active Parallel Systems (k-out-of-w) - Non-Identical** [[k-out-of-n Redundancy Explanation#For Non-Identical Components|ℹ️]]
 
 $R=\left[\sum_{t}\left(\prod_{i} R_{i} \prod_{j} F_{i}\right)\right]+\prod_{y=1}^{w} R_{y}$
 
 ---
 
-**Poisson Models**
+**Poisson Models** *(for Standby Systems with CFR)*
+
+**n=2 Components** [[Standby Redundancy Explanation#For n=2 Components|ℹ️]]
 
 $R=(1+\lambda t) e^{-\lambda t}$
 
+**n Components** [[Standby Redundancy Explanation#For n Components|ℹ️]]
+
 $R=1-\sum_{i=0}^{n-1} \frac{(-\lambda t)^{i} e^{-\lambda t}}{i!}$
+
+**k-out-of-n System** [[Standby Redundancy Explanation#For k-out-of-n System|ℹ️]]
 
 $R=e^{-k \lambda t} \sum_{i=0}^{n-k} \frac{(k \lambda t)^{i}}{i!}$
 
