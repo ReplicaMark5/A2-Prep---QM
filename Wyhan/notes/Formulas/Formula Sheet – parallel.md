@@ -6,19 +6,19 @@
 ```horizontal
 
 **Series Systems**
-
+<span style="font-size:0.6em; position:relative; top:-8px;">All components must work; used in RBD analysis.</span>
 $R=\prod_{i=1}^{w} R_{i}$
 
 **Active Parallel Systems (k-out-of-w) - Identical**
-
+<span style="font-size:0.6em; position:relative; top:-8px;">At least k of w identical components must work (binomial expansion).</span>
 $R=\sum_{j=k}^{w} \frac{w!}{j!(w-j)!} R_{i}^{j}\left(1-R_{i}\right)^{w-j}$
 
 **Active Parallel Systems - Non-Identical**
-
+<span style="font-size:0.6em; position:relative; top:-8px;">System succeeds if any component succeeds.</span>
 $R=1-\prod_{i=1}^{w}\left(1-R_{i}\right)$
 
 **Active Parallel Systems (k-out-of-w) - Non-Identical**
-$R{i}​$: probability ${i}$ works; $F{i}=1−R{i}$​: probability $i$ fails
+<span style="font-size:0.6em; position:relative; top:-8px;">$R{i}​$: probability ${i}$ works; $F{i}=1−R{i}$​: probability $i$ fails</span>
 $R=\left[\sum_{t}\left(\prod_{i} R_{i} \prod_{j} F_{i}\right)\right]+\prod_{y=1}^{w} R_{y}$
 
 ---
@@ -26,19 +26,19 @@ $R=\left[\sum_{t}\left(\prod_{i} R_{i} \prod_{j} F_{i}\right)\right]+\prod_{y=1}
 **Poisson Models** *(for Standby Systems with CFR)*
 
 **n=2 Identical Components**
-
+<span style="font-size:0.6em; position:relative; top:-8px;">Two standby components with constant failure rate (Eq 2.18).</span>
 $R=(1+\lambda t) e^{-\lambda t}$
 
 **n Identical Components**
-
+<span style="font-size:0.6em; position:relative; top:-8px;">Closed-form Poisson representation for n standby components (Eq 2.19).</span>
 $R=e^{-\lambda t}\sum_{i=0}^{n-1} \frac{(\lambda t)^{i}}{i!}$
 
 **k-out-of-n System w/ n=k identical components**
-
+<span style="font-size:0.6em; position:relative; top:-8px;">Generalized k-out-of-n standby system (Eq 2.20).</span>
 $R=e^{-k \lambda t} \sum_{i=0}^{n-k} \frac{(k \lambda t)^{i}}{i!}$
 
 **Importance Measure**
-
+<span style="font-size:0.6em; position:relative; top:-8px;">Birnbaum's component importance; computed by partial differentiation of $R_S$.</span>
 $l_{i}=\frac{\partial R_{S}}{\partial R_{i}}$
 
 ```
@@ -88,64 +88,9 @@ $\prod_y R_y$: case where all components work (always successful)
 
 $U = \frac{\sum_{i=1}^{r-1} T_i - \frac{(r-1)T_r}{2}}{T_r \sqrt{\frac{1}{12(r-1)}}}$
 
----
-
-# Non-Repairable Systems (Weibull / Exponential)
-
-> [!tip]-
-> *If you **set β = 1**, the Weibull reduces to the **Exponential (constant hazard)** model.*
-> ✅ *Residual life approximated as* $( \mu_{r+1}=E[X_{r+1}]-x )$ — valid exactly for **Exponential (β = 1)** and used as an estimate for other β values.
-> ⚠️ *For β ≠ 1*, the true conditional residual life requires integrating from \(x\) to ∞, which has **no closed form** and must be obtained numerically (as done in earlier lookup models).
-> 
-> Residual Life --> Used for **non-repairable components** (Weibull / Exponential)
-> 
-
-> [!note]- **Lifetime / Residual Life → Non-Repairable Systems**
->
-> Whenever you see:
-> - $X$ instead of $T_r$
-> - Terms like “time to failure,” “component lifetime,” or “residual life”
-> - Integrals involving $f(x)$, $F(x)$, $R(x)$, or $h(x)$
->
-> ➤ You are dealing with **Non-Repairable Components**, modeled using **Weibull** or **Exponential** distributions.  
-> These models represent a **single life from start until permanent failure** — no repairs or repeated events are considered.
-
-
-```horizontal
-### Weibull Distribution
-**Probability Density Function:**  
-<span style="font-size:0.6em; position:relative; top:-8px;">Describes the distribution of inter-arrival times between system failures.</span>
-$f_{X}(x) = \frac{\beta}{\eta}\left(\frac{x}{\eta}\right)^{\beta-1} \cdot \exp \left(-\left(\frac{x}{\eta}\right)^{\beta}\right)$
-
-**Cumulative Distribution Function:**  
-<span style="font-size:0.6em; position:relative; top:-8px;">Gives the probability that the next failure occurs before time t.</span>
-$F_{X}(x) = 1-\exp \left(-\left(\frac{x}{\eta}\right)^{\beta}\right)$
-
-**Reliability Function:**  
-<span style="font-size:0.6em; position:relative; top:-8px;">Probability that no failure has occurred up to time t since the last repair.</span>
-$R_{X}(x) = \exp \left(-\left(\frac{x}{\eta}\right)^{\beta}\right)$
-
-**Hazard Rate Function:**  
-<span style="font-size:0.6em; position:relative; top:-8px;">Instantaneous rate of occurrence of failures (ROCOF) at time $t$.</span>
-$h_{X}(x) = \frac{\beta}{\eta}\left(\frac{x}{\eta}\right)^{\beta-1}$
-
----
-
-### Expected Time to Next Failure
-
-**Conditional Expected Value (truncated):**
-
-$E\left[X_{r+1} \mid X_{r+1} \leq X_{P}\right] = \frac{\int_{x}^{X_{P}} x \cdot f_{X}(x) \, dx}{\int_{x}^{X_{P}} f_{X}(x) \, dx}$
-
-$\mu_{r+1} = E\left[X_{r+1} \mid X_{r+1} \leq X_{P}\right] - x$
-
-**Unconditional Expected Value:**
-
-$E\left[X_{r+1}\right] = \frac{\int_{0}^{\infty} x \cdot f_{X}(x) \, dx}{\int_{0}^{\infty} f_{X}(x) \, dx}$
-
-$\mu_{r+1} = E\left[X_{r+1}\right] - x$
-
-```
+> [!tip]- Laplace Trend Test — Model Selection Guide
+> Expand to view decision flow.
+> > ![[Laplace Trend Test – Model Selection#^laplace-flow]]
 
 ---
 
@@ -189,29 +134,29 @@ $\min(\bar{\alpha}_0,\bar{\alpha}_1) = \sum_{i=1}^{r} [E[N(0 \rightarrow T_i)] -
 $I_{\rho_1}(\alpha_0,\alpha_1) = r\alpha_0 + \alpha_1 \sum_{i=1}^{r} T_i - \frac{e^{\alpha_0}(e^{\alpha_1 T_r} - 1)}{\alpha_1}$
 
 **Intensity Function:**
-
+<span style="font-size:0.6em; position:relative; top:-8px;">Instantaneous failure rate (ROCOF).</span>
 $\rho_1(t) = e^{\alpha_0 + \alpha_1 t}$
 
 **Expected Number of Failures:**
-
+<span style="font-size:0.6em; position:relative; top:-8px;">Predict number of failures between two times.</span>
 $E[N(t_1 \rightarrow t_2)] = \frac{e^{\alpha_0 + \alpha_1 t_2} - e^{\alpha_0 + \alpha_1 t_1}}{\alpha_1}$
 
 ---
 
 **Reliability Function:**
-
+<span style="font-size:0.6em; position:relative; top:-8px;">Probability of no failures between $t_1$ and $t_2$.</span>
 $R(t_1 \rightarrow t_2) = \exp\!\left(-\frac{e^{\alpha_0 + \alpha_1 t_2} - e^{\alpha_0 + \alpha_1 t_1}}{\alpha_1}\right)$
 
 **Expected Time to Next Failure:**
-
+<span style="font-size:0.6em; position:relative; top:-8px;">Time of next event given last observed event.</span>
 $E[T_{r+1} \mid t=T_r] = \frac{\ln[(r+1)\alpha_1 + e^{\alpha_0}] - \alpha_0}{\alpha_1}$
 
 **Mean Time Between Failures:**
-
+<span style="font-size:0.6em; position:relative; top:-8px;">Expected time between events.</span>
 $\mathrm{MTBF}_{\rho_1}(t_1 \rightarrow t_2) = \frac{\alpha_1 (t_2 - t_1)}{e^{\alpha_0 + \alpha_1 t_2} - e^{\alpha_0 + \alpha_1 t_1}}$
 
 **Time Between Failures:**
-
+<span style="font-size:0.6em; position:relative; top:-8px;">Duration between successive failures.</span>
 $\mu_{r+1} = T_{r+1} - T_r$
 
 ```
@@ -231,29 +176,29 @@ $\min(\bar{\lambda}, \bar{\delta}) = \sum_{i=1}^{r} [E[N(0 \rightarrow T_i)] - N
 $I_{\rho_2}(\lambda, \delta) = r(\ln \lambda + \ln \delta) - \lambda T_r^{\delta} + (\delta - 1)\sum_{i=1}^{r} \ln T_i$
 
 **Intensity Function:**
-
+<span style="font-size:0.6em; position:relative; top:-8px;">Instantaneous failure rate (ROCOF).</span>
 $\rho_2(t) = \lambda \delta t^{\delta - 1}$
 
 **Expected Number of Failures:**
-
+<span style="font-size:0.6em; position:relative; top:-8px;">Predict number of failures between two times.</span>
 $E[N(t_1 \rightarrow t_2)] = \lambda (t_2^{\delta} - t_1^{\delta})$
 
 ---
 
 **Reliability Function:**
-
+<span style="font-size:0.6em; position:relative; top:-8px;">Probability of no failures between $t_1$ and $t_2$.</span>
 $R(t_1 \rightarrow t_2) = e^{-\lambda (t_2^{\delta} - t_1^{\delta})}$
 
 **Mean Time Between Failures:**
-
+<span style="font-size:0.6em; position:relative; top:-8px;">Expected time between events.</span>
 $\mathrm{MTBF}_{\rho_2}(t_1 \rightarrow t_2) = \frac{t_2 - t_1}{\lambda (t_2^{\delta} - t_1^{\delta})}$
 
 **Expected Time to Next Failure:**
-
+<span style="font-size:0.6em; position:relative; top:-8px;">Time of next event given last observed event.</span>
 $E[T_{r+1} \mid t=T_r] = \left(\frac{1 + \lambda T_r^{\delta}}{\lambda}\right)^{1/\delta}$
 
 **Time Between Failures:**
-
+<span style="font-size:0.6em; position:relative; top:-8px;">Duration between successive failures.</span>
 $\mu_{r+1} = T_{r+1} - T_r$
 
 ```
@@ -269,23 +214,23 @@ $\mu_{r+1} = T_{r+1} - T_r$
 ### Basic Availability Formulas
 
 **Failure Rate:**
-
+<span style="font-size:0.6em; position:relative; top:-8px;">Converts mean time between failures to a failure rate (ROCOF).</span>
 $\lambda = \frac{1}{\mathrm{MTBF}}$
 
 **Repair Rate:**
-
+<span style="font-size:0.6em; position:relative; top:-8px;">Converts mean time to repair to a repair rate.</span>
 $\mu = \frac{1}{\mathrm{MTTR}}$
 
 **Steady-State Availability:**
-
+<span style="font-size:0.6em; position:relative; top:-8px;">Proportion of time the item is functional (long-run average).</span>
 $A = \frac{\mathrm{MTBF}}{\mathrm{MTBF}+\mathrm{MTTR}} = \frac{\mu}{\lambda+\mu}$
 
 **Time-Dependent Availability:**
-
+<span style="font-size:0.6em; position:relative; top:-8px;">Probability system is operational at time t; converges to steady-state as t → ∞.</span>
 $A(t) = \frac{\mu}{\lambda+\mu}+\frac{\lambda}{\lambda+\mu} e^{-(\lambda+\mu) t}$
 
 **Series System Availability:**
-
+<span style="font-size:0.6em; position:relative; top:-8px;">All components must be operational.</span>
 $A_{\text{Series}} = \prod_{i=1}^{w} \frac{\mu_{i}}{\lambda_{i}+\mu_{i}}$
 
 ---
@@ -293,15 +238,15 @@ $A_{\text{Series}} = \prod_{i=1}^{w} \frac{\mu_{i}}{\lambda_{i}+\mu_{i}}$
 ### Parallel Configuration
 
 **Active Parallel System Availability:**
-
+<span style="font-size:0.6em; position:relative; top:-8px;">System works if any one component works.</span>
 $A_{\text{Active}} = 1-\prod_{i=1}^{w} \frac{\lambda_{i}}{\lambda_{i}+\mu_{i}}$
 
 **Active k-out-of-w System Availability:**
-
+<span style="font-size:0.6em; position:relative; top:-8px;">System succeeds if ≥ k of w components function.</span>
 $A_{\text{Active,k/w}} = 1-\frac{1}{(\lambda+\mu)^{w}} \sum_{i=0}^{k-1}\binom{w}{i} \mu^{i} \lambda^{w-i}$
 
 **Standby Parallel (2 components) Availability:**
-
+<span style="font-size:0.6em; position:relative; top:-8px;">One unit on standby while the other operates.</span>
 $A_{\text{Standby,2}} = \frac{\mu^{2}+\mu \lambda}{\mu^{2}+\mu \lambda+\lambda^{2}}$
 
 ```
