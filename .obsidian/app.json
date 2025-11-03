@@ -24,5 +24,11 @@
     "editor:configure-toolbar",
     "editor:toggle-comments",
     "editor:insert-footnote"
-  ]
+  ],
+  "pdfExportSettings": {
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  }
 }
