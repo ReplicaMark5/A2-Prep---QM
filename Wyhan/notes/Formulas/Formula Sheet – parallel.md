@@ -89,8 +89,9 @@ $\prod_y R_y$: case where all components work (always successful)
 $U = \frac{\sum_{i=1}^{r-1} T_i - \frac{(r-1)T_r}{2}}{T_r \sqrt{\frac{1}{12(r-1)}}}$
 
 > [!tip]- Laplace Trend Test – Model Selection Guide
-> Expand to view decision flow.
-> > ![[Laplace Trend Test – Model Selection#^laplace-flow]]
+>  ![[Laplace Trend Test.png]]
+>  ![[Selecting an appropriate model.png]]
+
 
 ---
 
@@ -118,19 +119,19 @@ $U = \frac{\sum_{i=1}^{r-1} T_i - \frac{(r-1)T_r}{2}}{T_r \sqrt{\frac{1}{12(r-1)
 ```horizontal
 ### Weibull Distribution
 **Probability Density Function:**  
-<span style="font-size:0.6em; position:relative; top:-8px;">Describes the distribution of inter-arrival times between system failures.</span>
+<span style="font-size:0.6em; position:relative; top:-8px;"> Used to calculate the probability that a component will fail at a specific time $x$</span>
 $f_{X}(x) = \frac{\beta}{\eta}\left(\frac{x}{\eta}\right)^{\beta-1} \cdot \exp \left(-\left(\frac{x}{\eta}\right)^{\beta}\right)$
 
 **Cumulative Distribution Function:**  
-<span style="font-size:0.6em; position:relative; top:-8px;">Gives the probability that the next failure occurs before time t.</span>
+<span style="font-size:0.6em; position:relative; top:-8px;">Gives the probability that the next failure occurs before time x.</span>
 $F_{X}(x) = 1-\exp \left(-\left(\frac{x}{\eta}\right)^{\beta}\right)$
 
 **Reliability Function:**  
-<span style="font-size:0.6em; position:relative; top:-8px;">Probability that no failure has occurred up to time t since the last repair.</span>
+<span style="font-size:0.6em; position:relative; top:-8px;">Probability that the component has **survived without failure up to time x**.</span>
 $R_{X}(x) = \exp \left(-\left(\frac{x}{\eta}\right)^{\beta}\right)$
 
 **Hazard Rate Function:**  
-<span style="font-size:0.6em; position:relative; top:-8px;">Instantaneous rate of occurrence of failures (ROCOF) at time $t$.</span>
+<span style="font-size:0.6em; position:relative; top:-8px;">The probability that a component fails at $x$, given it has survived up to $x$.</span>
 $h_{X}(x) = \frac{\beta}{\eta}\left(\frac{x}{\eta}\right)^{\beta-1}$
 
 ---
@@ -144,7 +145,7 @@ $E\left[X_{r+1} \mid X_{r+1} \leq X_{P}\right] = \frac{\int_{x}^{X_{P}} x \cdot 
 $\mu_{r+1} = E\left[X_{r+1} \mid X_{r+1} \leq X_{P}\right] - x$
 
 **Unconditional Expected Value:**
-
+<span style="font-size:0.6em; position:relative; top:-8px;">Expected value of the next failure time (absolute time) </span>
 $E\left[X_{r+1}\right] = \frac{\int_{0}^{\infty} x \cdot f_{X}(x) \, dx}{\int_{0}^{\infty} f_{X}(x) \, dx}$
 
 $\mu_{r+1} = E\left[X_{r+1}\right] - x$
@@ -263,7 +264,6 @@ $\mu_{r+1} = T_{r+1} - T_r$
 ```
 
 ---
-
 ## Availability
 
 *(MTBF = Mean Time Between Failures, MTTR = Mean Time To Repair)*
