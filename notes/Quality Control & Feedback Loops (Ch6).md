@@ -8,9 +8,9 @@
 
 ## 1 Quality Control in Context
 
-Quality control is the **third pillar** of the _Juran Trilogy_:
+Quality control is the **second pillar** of the _Juran Trilogy_:
 
-1. Plan for Quality → 2. Improve Quality → 3. <span style="color:rgb(196, 51, 2)"><b>Control Quality</b></span>
+1. Plan for Quality → 2. <span style="color:rgb(196, 51, 2)"><b>Control Quality</b></span> → 3. Improve Quality
     
 
 The goal is to **maintain gains** achieved through improvement and prevent regression.  
@@ -97,6 +97,46 @@ Examples:
 > [!learn]
 > A capable process + trained, empowered workers = self-control.
 > The worker must know what is expected, how they are doing, and have the means to adjust.
+
+> [!example]- SELF-CONTROL VS CLASSICAL CONTROL — Factory Example
+> **Scenario: Weekly Profit Monitoring in a Factory**
+>
+> **Classical Control Approach:**
+> - Manager measures each employee's individual output
+> - Manager compares each person's performance to their target
+> - Manager issues corrective orders to specific employees
+> - Control is **external** — workers wait for instructions
+> - Umpire role: **Manager decides and directs**
+>
+> **Self-Control Approach:**
+> - Manager posts weekly profit figures publicly on a board
+> - Workers see how overall performance relates to targets
+> - Each worker/team uses this knowledge to **self-regulate** their own work
+> - Workers adjust processes, behaviors, or methods **before being told**
+> - Control is **internal** — workers take ownership
+> - Umpire role: **Workers themselves judge and act**
+>
+> **Key Differences:**
+>
+> | Aspect | Classical Control | Self-Control (Juran's Model) |
+> |:--|:--|:--|
+> | **Knowledge** | Manager tells you what to do | Shared goal (profit target) visible to all |
+> | **Measurement** | Manager measures your work | Workers see their contribution to overall results |
+> | **Decision** | Manager decides if correction needed | Workers judge gap and decide action |
+> | **Action** | Wait for orders from above | Act autonomously to close the gap |
+> | **Ownership** | External supervision | Internal accountability |
+> | **Speed** | Delayed (after manager reviews) | Immediate (at the source) |
+>
+> **Why Self-Control Works Better:**
+> - ✅ Faster response (real-time vs delayed)
+> - ✅ Lower inspection costs (workers catch issues early)
+> - ✅ Higher ownership (intrinsic motivation)
+> - ✅ Better quality at source (problems fixed during production, not after)
+>
+> **Juran's Three Requirements for Self-Control:**
+> 1. **Knowledge of what to do** — Clear standards and goals
+> 2. **Knowledge of performance** — Access to real-time feedback/data
+> 3. **Means to regulate** — Authority and tools to make adjustments
 
 ---
 

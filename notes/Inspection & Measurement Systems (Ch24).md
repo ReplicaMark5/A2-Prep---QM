@@ -33,11 +33,23 @@ _Source: Lecture 17 (Quality Management 444 – Prof Imke de Kock)_
 - Run on complex assemblies or systems.
 - Seeks to confirm **functional performance** over a reasonable period.
 
-> [!question] Why the difference matters  
-> Inspection asks, “Does it _look and measure_ right?”  
-> Testing asks, “Does it _work_ right?”
+> [!question] Why the difference matters
+> Inspection asks, "Does it _look and measure_ right?"
+> Testing asks, "Does it _work_ right?"
 
 In modern systems, this line blurs—both serve the same aim: **prove reliability before use.**
+
+> [!info]- INSPECTION VS TESTING — Additional Research Perspective
+> **ChatGPT Research:**
+>
+> > *"Inspection is primarily about checking that the item meets specified standards/requirements (often via measurement, visual check or comparison to standards). Testing is about verifying that the item works or performs under specified conditions (often via functional or operational checks). The boundary can blur: some inspections include simple functional checks, and some testing includes measurements akin to inspection."*
+>
+> **Key Insight:**
+> - **Inspection** = Conformance to **specifications** (static verification)
+> - **Testing** = Verification of **performance** (operational verification)
+> - **Overlap zone** = Some inspections include functional checks; some tests include measurements
+>
+> This reinforces why modern quality systems treat them as complementary rather than strictly separate.
 
 ---
 
@@ -125,19 +137,32 @@ Bridging that gap means:
 
 ## 7 | Accuracy and Measurement Error
 
-Every measurement system contributes its own variation.  
+Inspection accuracy depends on:
+1. **Completeness of inspection planning** (what, where, when, how to inspect)
+2. **Bias and precision of the instrument**
+3. **Level of human error**
+
+Every measurement system contributes its own variation.
 To interpret data correctly, we must separate **process variation** from **measurement variation**:
 
 $$
 \sigma^2_{total} = \sigma^2_{process} + \sigma^2_{measurement}
 $$
 
-> [!question] What defines “good measurement”?
-> 
-> - **Bias (Accuracy):** how close the average reading is to the true value.
->     
-> - **Precision:** how repeatable readings are.
->     
+> [!question] What defines "good measurement"?
+>
+> - **Accuracy (low bias):** how close the average reading is to the true value.
+>
+> - **Precision (low variance):** how repeatable readings are.
+>
+
+> [!info]- Bias vs Precision Clarification
+> - **Bias** = systematic error → average offset from the true value
+> - **Precision** = random error → spread/variability of repeated measurements
+> - **Accuracy** is inversely related to bias (↓ bias → ↑ accuracy)
+> - **Precision** is inversely related to variance (↓ variance → ↑ precision)
+>
+> Both must be good for reliable measurement.
 
 If measurement error is large or unknown, improvement decisions lose validity.
 

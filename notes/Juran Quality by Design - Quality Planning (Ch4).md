@@ -4,6 +4,8 @@ cssclass: mermaid-large
 
 # Chapter 4 – Quality Planning & Design
 
+> [!danger] Creating features is the purpose of Quality by Design
+
 > [!summary] Purpose
 > This chapter introduces the **first process of the Juran Trilogy** — *Quality Planning*, which is about **designing for quality and innovation.**
 > It establishes how organisations convert customer needs into product and process designs that satisfy both the customer and operational requirements.

@@ -52,13 +52,20 @@ Purpose: Optimisation  →  Phase: Use RSM → Fit surface → Find optimum
 > From A2 Prep Guide emphasis on DoE terminology
 ^exam-focus-doe-terminology
 
-> - **Factor**: a controllable input (e.g., temperature). 
-> - **Level**: its setting. 
+> - **Factor**: a controllable input (e.g., temperature).
+> - **Level**: its setting.
 > - **Response**: the measured output.
 > - **Interaction**: joint effect of factors on the response.
 
-> - Inputs by control: **controlled (x)**, **uncontrolled observed (u)**, **uncontrolled unobserved (v)**. 
+> - Inputs by control: **controlled (x)**, **uncontrolled observed (u)**, **uncontrolled unobserved (v)**.
+> - **Nuisance inputs**: collective term for both u and v (factors affecting output that can't be controlled)
 > - Tools: **replication**, **blocking**, **covariates**, **randomisation**.
+
+> [!info]- Input Types Clarification
+> - **Controlled (x):** Variables deliberately set/varied in the experiment
+> - **Uncontrolled but Observed (u):** Can't control but can measure → handle via **blocking** or **covariates (ANCOVA)**
+> - **Uncontrolled and Unobserved (v):** Unknown random factors → handle via **randomisation** to average out
+> - **Nuisance inputs:** Umbrella term for u + v combined (not a separate fourth category)
 
 
 > [!tip] Mental map
@@ -74,7 +81,7 @@ Purpose: Optimisation  →  Phase: Use RSM → Fit surface → Find optimum
     
 - **Randomisation**: guards against time/order biases.
     
-- **Blocking**: group runs where a nuisance stays fixed; compare factors **within** blocks.
+- **Blocking**: group runs where an uncontrolled-but-observed factor (u) stays roughly constant; compare controlled factors (x) **within** blocks to isolate their effects.
     
 
 > [!learn] Interaction is not optional  

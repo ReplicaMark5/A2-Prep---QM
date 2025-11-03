@@ -58,6 +58,22 @@ Example:
 
 ---
 
+> [!tip]- DMAIC CYCLE VISUALIZATION
+> **The Continuous Improvement Loop**
+>
+> ![[DMAIC cycle diagram.png]]
+>
+> DMAIC follows a cyclical structure:
+> - **Define** → Identify the problem and goals
+> - **Measure** → Collect data on current state
+> - **Analyze** → Find root causes
+> - **Improve** → Implement solutions
+> - **Control** → Sustain gains and monitor
+>
+> After Control, the cycle repeats for continuous improvement.
+
+---
+
 ## 4. The DMAIC Logic — Step by Step Understanding
 
 > [!bug] EXAM CRITICAL — DMAIC Steps

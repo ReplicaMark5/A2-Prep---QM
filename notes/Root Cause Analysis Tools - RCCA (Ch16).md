@@ -78,6 +78,29 @@ An unclear one sends you chasing ghosts.
 > Focus: Know the **purpose** of each tool, not detailed calculations
 ^exam-critical-tools
 
+> [!tip]- 7 CLASSIC TOOLS OF QUALITY
+> **Visual Reference Guide**
+>
+> ![[7 Classic Tools of Quality.png]]
+>
+> These are the most common quality tools used to identify and address the vast majority of quality-related issues:
+>
+> 1. **Pareto Chart** — Prioritize problems by frequency/impact (80/20 rule)
+> 2. **Cause-and-Effect Diagram** — Map potential causes (Fishbone/Ishikawa)
+> 3. **Histogram** — Visualize distribution of data
+> 4. **Check Sheet / Checklist** — Systematically collect data
+> 5. **Scatter Diagram** — Explore relationships between variables
+> 6. **Control Chart** — Monitor process stability over time
+> 7. **Flow Chart** — Map process steps and decision points
+>
+> **Key Insight:** Each tool serves a specific purpose in the RCCA process — know *when* to use each one, not just *how*.
+>
+> ---
+>
+> > *"Appropriate statistical tools and techniques are used: histograms, box plots, other exploratory graphical analysis, correlation and regression, hypothesis testing, contingency tables, analysis of variance (ANOVA), and other graphical and statistical tests may be used. In this way, the team confirms the determinants of process performance (i.e., the key or "vital few" inputs that affect response variable[s] of interest are identified). It is possible that the team may not have to carry out designed experiments (DOEs) in the next (Improve) phase if the exact cause-effect relationships can be established by analyzing past and current performance data."*
+>
+> ✅ **Practical takeaway:** Good analysis with these tools can eliminate the need for expensive DOE experiments by establishing cause-effect relationships from existing data.
+
 Tools are not the goal — they are *thinking scaffolds*.
 Each helps uncover "why" from a different angle.
 

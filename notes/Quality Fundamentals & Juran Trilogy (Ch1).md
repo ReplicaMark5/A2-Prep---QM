@@ -21,11 +21,40 @@
 > | **Quality Control** | Maintain standards by detecting and correcting issues | “Are we meeting the standard?” | Fixing a sudden production defect |
 > | **Quality Improvement** | Eliminate chronic problems, raise performance | “How can we do better?” | Introducing Kaizen to reduce recurring waste |
 >
-> ✅ **Key takeaway:**  
+> ✅ **Key takeaway:**
 > Planning builds the system → Control stabilises it → Improvement evolves it.
 
+> [!danger]- JURAN TRILOGY CLARIFICATION
+> **Sequential vs Cyclic — Both are correct!**
+>
+> ![[Juran's Trilogy (fig 1.1).png]]
+>
+> The Trilogy is presented both as **three parallel pillars** and as a **sequential flow**. Here's how to understand this:
+>
+> **1. Conceptual Order (Canonical Sequence):**
+> - **Planning → Control → Improvement** is the official order
+> - You can't control what hasn't been planned
+> - You improve what you already control
+> - *Use this order for exams and formal definitions*
+>
+> **2. Operational Reality (Continuous Cycle):**
+> - All three functions can operate **simultaneously** across different projects/departments
+> - After improvement, you establish **new controls** to hold gains
+> - This creates a **repeating cycle**: Plan → Control → Improve → new Control → next Planning cycle
+>
+> **3. Best Mental Model:**
+> > *"Conceptually sequential, operationally continuous"*
+>
+> | View | How to Visualize | Meaning |
+> |:--|:--|:--|
+> | **Pillars** | Three discrete managerial functions | Each is a key management process |
+> | **Cycle** | Plan → Control → Improve → loop back | Continuous iterative improvement |
+> | **Textbook** | Sequential order | Logical flow from design → operation → enhancement |
+>
+> ✅ **For exams:** State the canonical order (Planning → Control → Improvement), then explain they work as a repeating cycle with overlapping execution.
 
-→ **Rhythm:** *<span style="color:rgb(196, 51, 2)">Plan</span> → <span style="color:rgb(239, 96, 36)">Control</span> → <span style="color:rgb(240, 148, 31)">Improve</span>*  
+
+→ **Rhythm:** *<span style="color:rgb(196, 51, 2)">Plan</span> → <span style="color:rgb(239, 96, 36)">Control</span> → <span style="color:rgb(240, 148, 31)">Improve</span>*
 
 ---
 
