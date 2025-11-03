@@ -88,9 +88,68 @@ $\prod_y R_y$: case where all components work (always successful)
 
 $U = \frac{\sum_{i=1}^{r-1} T_i - \frac{(r-1)T_r}{2}}{T_r \sqrt{\frac{1}{12(r-1)}}}$
 
-> [!tip]- Laplace Trend Test — Model Selection Guide
+> [!tip]- Laplace Trend Test – Model Selection Guide
 > Expand to view decision flow.
 > > ![[Laplace Trend Test – Model Selection#^laplace-flow]]
+
+---
+
+# Non-Repairable Systems (Weibull / Exponential)
+
+> [!tip]-
+> *If you **set β = 1**, the Weibull reduces to the **Exponential (constant hazard)** model.*
+> ✅ *Residual life approximated as* $( \mu_{r+1}=E[X_{r+1}]-x )$ — valid exactly for **Exponential (β = 1)** and used as an estimate for other β values.
+> ⚠️ *For β ≠ 1*, the true conditional residual life requires integrating from \(x\) to ∞, which has **no closed form** and must be obtained numerically (as done in earlier lookup models).
+> 
+> Residual Life --> Used for **non-repairable components** (Weibull / Exponential)
+> 
+
+> [!note]- **Lifetime / Residual Life → Non-Repairable Systems**
+>
+> Whenever you see:
+> - $X$ instead of $T_r$
+> - Terms like “time to failure,” “component lifetime,” or “residual life”
+> - Integrals involving $f(x)$, $F(x)$, $R(x)$, or $h(x)$
+>
+> ➤ You are dealing with **Non-Repairable Components**, modeled using **Weibull** or **Exponential** distributions.  
+> These models represent a **single life from start until permanent failure** — no repairs or repeated events are considered.
+
+
+```horizontal
+### Weibull Distribution
+**Probability Density Function:**  
+<span style="font-size:0.6em; position:relative; top:-8px;">Describes the distribution of inter-arrival times between system failures.</span>
+$f_{X}(x) = \frac{\beta}{\eta}\left(\frac{x}{\eta}\right)^{\beta-1} \cdot \exp \left(-\left(\frac{x}{\eta}\right)^{\beta}\right)$
+
+**Cumulative Distribution Function:**  
+<span style="font-size:0.6em; position:relative; top:-8px;">Gives the probability that the next failure occurs before time t.</span>
+$F_{X}(x) = 1-\exp \left(-\left(\frac{x}{\eta}\right)^{\beta}\right)$
+
+**Reliability Function:**  
+<span style="font-size:0.6em; position:relative; top:-8px;">Probability that no failure has occurred up to time t since the last repair.</span>
+$R_{X}(x) = \exp \left(-\left(\frac{x}{\eta}\right)^{\beta}\right)$
+
+**Hazard Rate Function:**  
+<span style="font-size:0.6em; position:relative; top:-8px;">Instantaneous rate of occurrence of failures (ROCOF) at time $t$.</span>
+$h_{X}(x) = \frac{\beta}{\eta}\left(\frac{x}{\eta}\right)^{\beta-1}$
+
+---
+
+### Expected Time to Next Failure
+
+**Conditional Expected Value (truncated):**
+
+$E\left[X_{r+1} \mid X_{r+1} \leq X_{P}\right] = \frac{\int_{x}^{X_{P}} x \cdot f_{X}(x) \, dx}{\int_{x}^{X_{P}} f_{X}(x) \, dx}$
+
+$\mu_{r+1} = E\left[X_{r+1} \mid X_{r+1} \leq X_{P}\right] - x$
+
+**Unconditional Expected Value:**
+
+$E\left[X_{r+1}\right] = \frac{\int_{0}^{\infty} x \cdot f_{X}(x) \, dx}{\int_{0}^{\infty} f_{X}(x) \, dx}$
+
+$\mu_{r+1} = E\left[X_{r+1}\right] - x$
+
+```
 
 ---
 
