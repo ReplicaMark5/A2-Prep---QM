@@ -42,6 +42,11 @@ recordings and transcription/*.mp3
 !.obsidian/plugins/**/
 !.obsidian/plugins/**/data.json
 
+# --- Ignore sensitive plugin data ---
+.obsidian/plugins/marker-api/data.json
+
 
 /docs/Imke_A2_brief
 !/docs/Imke_A2_brief/Imke_A2_brief.md
+
+# /Alex Process Doc
