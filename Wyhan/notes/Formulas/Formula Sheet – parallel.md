@@ -13,7 +13,7 @@ $R=\prod_{i=1}^{w} R_{i}$
 <span style="font-size:0.6em; position:relative; top:-8px;">At least k of w identical components must work (binomial expansion).</span>
 $R=\sum_{j=k}^{w} \frac{w!}{j!(w-j)!} R_{i}^{j}\left(1-R_{i}\right)^{w-j}$
 
-**Active Parallel Systems - Non-Identical**
+**Active Parallel Systems**
 <span style="font-size:0.6em; position:relative; top:-8px;">System succeeds if any component succeeds.</span>
 $R=1-\prod_{i=1}^{w}\left(1-R_{i}\right)$
 

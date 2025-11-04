@@ -29,6 +29,7 @@
 		{"id":"strategic-improvement","fromNode":"strategic","fromSide":"right","toNode":"improvement","toSide":"top","color":"6","label":"Influences"},
 		{"id":"voc-improvement","fromNode":"voc","fromSide":"top","toNode":"improvement","toSide":"bottom","label":"Improvement targets"},
 		{"id":"2f3b3228d80b2ff8","fromNode":"cd9b30fccd9540d9","fromSide":"left","toNode":"improvement","toSide":"right"},
-		{"id":"e74f998a956e684e","fromNode":"e9c74b112688bcc9","fromSide":"left","toNode":"improvement","toSide":"right"}
+		{"id":"e74f998a956e684e","fromNode":"e9c74b112688bcc9","fromSide":"left","toNode":"improvement","toSide":"right"},
+		{"id":"e53e9f6047744c80","fromNode":"improvement","fromSide":"left","toNode":"control","toSide":"bottom","color":"5"}
 	]
 }

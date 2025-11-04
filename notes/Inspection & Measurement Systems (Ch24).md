@@ -158,7 +158,7 @@ $$
 
 > [!info]- Bias vs Precision Clarification
 > - **Bias** = systematic error → average offset from the true value
-> - **Precision** = random error → spread/variability of repeated measurements
+> - **Variance** = random error → spread/variability of repeated measurements
 > - **Accuracy** is inversely related to bias (↓ bias → ↑ accuracy)
 > - **Precision** is inversely related to variance (↓ variance → ↑ precision)
 >
